@@ -193,11 +193,11 @@ export default {
         "Il s'agit de mon portfolio personnel où mon CV et tous mes projets sont partagés.",
       links: [
         {
-          link: "https://github.com/iradbouzidi/irad-portfolio",
+          link: "https://github.com/#/#-portfolio",
           icon: <GitHub />,
         },
         {
-          link: "https://irad-portfolio.netlify.app",
+          link: "https://#-portfolio.netlify.app",
           icon: <Language />,
         },
       ],
@@ -235,7 +235,7 @@ export default {
         "Ce projet est un clone Netflix qui utilise l'API IMDb pour lire les bandes-annonces de films.",
       links: [
         {
-          link: "https://github.com/iradbouzidi/react-netflix-app-1",
+          link: "https://github.com/#/react-netflix-app-1",
           icon: <GitHub />,
         },
         {
@@ -257,7 +257,7 @@ export default {
         "Ce projet est un clone Netflix qui utilise l'API IMDb pour lire les bandes-annonces de films et Firebase pour la connexion de l'utilisateur.",
       links: [
         {
-          link: "https://github.com/iradbouzidi/react-netflix-app-2",
+          link: "https://github.com/#/react-netflix-app-2",
           icon: <GitHub />,
         },
         {
@@ -278,10 +278,10 @@ export default {
         "A clone for Amazon online shopping using FireBase for project hosting and user login",
       links: [
         {
-          link: "https://github.com/iradbouzidi/react-amazon-app",
+          link: "https://github.com/#/react-amazon-app",
           icon: <GitHub />,
         },
-        { link: "https://clone-irad-682e5.web.app/", icon: <Language /> },
+        { link: "https://clone-#-682e5.web.app/", icon: <Language /> },
       ],
     },
     //#endregion
@@ -297,11 +297,11 @@ export default {
         "Project that uses a public API to keep a track on the corona state worldwide",
       links: [
         {
-          link: "https://github.com/iradbouzidi/react-covid19-tracker-app-1",
+          link: "https://github.com/#/react-covid19-tracker-app-1",
           icon: <GitHub />,
         },
         {
-          link: "https://covid19-tracker-app-irad.web.app",
+          link: "https://covid19-tracker-app-#.web.app",
           icon: <Language />,
         },
       ],
@@ -318,7 +318,7 @@ export default {
         "Project that uses a public API to keep a track on the corona state worldwide",
       links: [
         {
-          link: "https://github.com/iradbouzidi/react-covid19-tracker-app-2",
+          link: "https://github.com/#/react-covid19-tracker-app-2",
           icon: <GitHub />,
         },
         {
@@ -340,7 +340,7 @@ export default {
         "New application that uses ALAN AI model to answer to questions",
       links: [
         {
-          link: "https://github.com/iradbouzidi/react-voice-controlled-news-app",
+          link: "https://github.com/#/react-voice-controlled-news-app",
           icon: <GitHub />,
         },
         {
@@ -362,7 +362,7 @@ export default {
         "Random number prediciton game where player have to guess to number the game predicted",
       links: [
         {
-          link: "https://github.com/iradbouzidi/react-hot-cold-game-app",
+          link: "https://github.com/#/react-hot-cold-game-app",
           icon: <GitHub />,
         },
         {
@@ -382,11 +382,11 @@ export default {
       description: "Advice generator app using an API",
       links: [
         {
-          link: "https://github.com/iradbouzidi/react-advice-app",
+          link: "https://github.com/#/react-advice-app",
           icon: <GitHub />,
         },
         {
-          link: "https://react-advice-app-irad.netlify.app",
+          link: "https://react-advice-app-#.netlify.app",
           icon: <Language />,
         },
       ],
@@ -404,7 +404,7 @@ export default {
         "ML/AI base ReactJS app that detects face landmarks based on a pre-trained model",
       links: [
         {
-          link: "https://github.com/iradbouzidi/react-tfjs-face-landmark-detection-app",
+          link: "https://github.com/#/react-tfjs-face-landmark-detection-app",
           icon: <GitHub />,
         },
         {
@@ -426,11 +426,11 @@ export default {
         "App that uses the Youtube API to search for videos and play them on screen",
       links: [
         {
-          link: "https://github.com/iradbouzidi/react-youtube-app",
+          link: "https://github.com/#/react-youtube-app",
           icon: <GitHub />,
         },
         {
-          link: "https://react-youtube-app-irad.netlify.app",
+          link: "https://react-youtube-app-#.netlify.app",
           icon: <Language />,
         },
       ],
@@ -448,11 +448,11 @@ export default {
         "Youtube inspired app that applies thumbnails to videos like on Youtube",
       links: [
         {
-          link: "https://github.com/iradbouzidi/react-youtube-thumbnail-app",
+          link: "https://github.com/#/react-youtube-thumbnail-app",
           icon: <GitHub />,
         },
         {
-          link: "https://thumbnail-app-irad.web.app/",
+          link: "https://thumbnail-app-#.web.app/",
           icon: <Language />,
         },
       ],
@@ -470,7 +470,7 @@ export default {
         "Instagram like app for pictures sharing and comments with user login",
       links: [
         {
-          link: "https://github.com/iradbouzidi/react-instagram-app",
+          link: "https://github.com/#/react-instagram-app",
           icon: <GitHub />,
         },
         {
@@ -491,7 +491,7 @@ export default {
       description: "Messenger like app for real time chatting with user login",
       links: [
         {
-          link: "https://github.com/iradbouzidi/react-messenger-app",
+          link: "https://github.com/#/react-messenger-app",
           icon: <GitHub />,
         },
         {
@@ -512,11 +512,11 @@ export default {
       description: "A minimalist To-Do app that saves the tasks",
       links: [
         {
-          link: "https://github.com/iradbouzidi/react-todo-app",
+          link: "https://github.com/#/react-todo-app",
           icon: <GitHub />,
         },
         {
-          link: "https://todo-app-irad-51a26.web.app/",
+          link: "https://todo-app-#-51a26.web.app/",
           icon: <Language />,
         },
       ],
@@ -534,7 +534,7 @@ export default {
         "Tinder like app to accept/reject people with user login and real time chat implemented",
       links: [
         {
-          link: "https://github.com/iradbouzidi/react-tinder-app",
+          link: "https://github.com/#/react-tinder-app",
           icon: <GitHub />,
         },
         {
@@ -555,11 +555,11 @@ export default {
       description: "Online Blog app about coding based on Gatsby and GraphQL",
       links: [
         {
-          link: "https://github.com/iradbouzidi/gatsby-blog-app",
+          link: "https://github.com/#/gatsby-blog-app",
           icon: <GitHub />,
         },
         {
-          link: "https://gatsby-blog-app-irad.netlify.app/",
+          link: "https://gatsby-blog-app-#.netlify.app/",
           icon: <Language />,
         },
       ],
@@ -579,7 +579,7 @@ export default {
         "Trash Monitoring IoT System based on sensors and data collection",
       links: [
         {
-          link: "https://github.com/iradbouzidi/smart-trash-monitoring",
+          link: "https://github.com/#/smart-trash-monitoring",
           icon: <GitHub />,
         },
       ],
@@ -595,11 +595,11 @@ export default {
       description: "Task Manager to organize to do task with user login",
       links: [
         {
-          link: "https://github.com/iradbouzidi/smart-trash-monitoring",
+          link: "https://github.com/#/smart-trash-monitoring",
           icon: <GitHub />,
         },
         {
-          link: "https://mean-task-manager-app-irad.netlify.app",
+          link: "https://mean-task-manager-app-#.netlify.app",
           icon: <Language />,
         },
       ],
@@ -619,11 +619,11 @@ export default {
         "Memories sharing app with user login, memory detail, suggested memories and more",
       links: [
         {
-          link: "https://github.com/iradbouzidi/mern-memories-app",
+          link: "https://github.com/#/mern-memories-app",
           icon: <GitHub />,
         },
         {
-          link: "https://mern-memories-app-irad.netlify.app/",
+          link: "https://mern-memories-app-#.netlify.app/",
           icon: <Language />,
         },
       ],
@@ -641,11 +641,11 @@ export default {
         "Real Time chat with rooms concept for more that 2 participants based on user login",
       links: [
         {
-          link: "https://github.com/iradbouzidi/mern-chat-app",
+          link: "https://github.com/#/mern-chat-app",
           icon: <GitHub />,
         },
         {
-          link: "https://mern-chat-app-irad.netlify.app/",
+          link: "https://mern-chat-app-#.netlify.app/",
           icon: <Language />,
         },
       ],
@@ -662,11 +662,11 @@ export default {
       description: "PDF Generator example based on user given input in a from",
       links: [
         {
-          link: "https://github.com/iradbouzidi/pdf-generator-app",
+          link: "https://github.com/#/pdf-generator-app",
           icon: <GitHub />,
         },
         {
-          link: "https://pdf-generator-app-irad.netlify.app/",
+          link: "https://pdf-generator-app-#.netlify.app/",
           icon: <Language />,
         },
       ],
@@ -686,7 +686,7 @@ export default {
         "Selenium Automation Script for price tracking, webscrapping amazon articles",
       links: [
         {
-          link: "https://github.com/iradbouzidi/python-amazon-price-tracker",
+          link: "https://github.com/#/python-amazon-price-tracker",
           icon: <GitHub />,
         },
       ],
@@ -704,7 +704,7 @@ export default {
         "Real Time Cars and Pedestrians Trackin AI model using video input or live camera",
       links: [
         {
-          link: "https://github.com/iradbouzidi/python-opencv-tracking",
+          link: "https://github.com/#/python-opencv-tracking",
           icon: <GitHub />,
         },
       ],
@@ -721,7 +721,7 @@ export default {
       description: "Face Detector AI model using video input or live camera",
       links: [
         {
-          link: "https://github.com/iradbouzidi/python-opencv-face-detector",
+          link: "https://github.com/#/python-opencv-face-detector",
           icon: <GitHub />,
         },
       ],
@@ -738,7 +738,7 @@ export default {
       description: "Smile Detector AI model using video input or live camera",
       links: [
         {
-          link: "https://github.com/iradbouzidi/python-opencv-smile-detector",
+          link: "https://github.com/#/python-opencv-smile-detector",
           icon: <GitHub />,
         },
       ],
@@ -755,7 +755,7 @@ export default {
       description: "The legacy of the classic Snake Game we all played as kids",
       links: [
         {
-          link: "https://github.com/iradbouzidi/python-snake-game",
+          link: "https://github.com/#/python-snake-game",
           icon: <GitHub />,
         },
       ],
