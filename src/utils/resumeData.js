@@ -133,7 +133,7 @@ export default {
     },
     {
       title: "BACK-END",
-      description: ["NodeJS", "Java", "Javascript", "PHP"],
+      description: ["NodeJS", "Java","Spring Boot", "Javascript","Express", "PHP"],
     },
     {
       title: "DATABASES",
