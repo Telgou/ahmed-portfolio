@@ -11,8 +11,8 @@ import {
   Pool,
   Computer,
   FitnessCenter,
+  Fireplace
 } from "@material-ui/icons";
-
 
 // eslint-disable-next-line
 export default {
@@ -27,7 +27,7 @@ export default {
     },
     {
       title: "Camping",
-      icon: <Pool />,
+      icon: <Fireplace />,
     },
     {
       title: "Weightlifting",
@@ -67,17 +67,17 @@ export default {
   about_me:
     "Hello Visitor 🙂 !" +
     "\n\n" +
-    "I am Gamgami Ahmed a passionate Tunisian Junior Software Engineer. I am 25 years old, the younger brother of one sister, raised in a happy and lovely family." +
+    "I am Gamgami Ahmed a passionate Tunisian Junior Software Engineer." +
     "\n\n" +
     "My passion with IT and Computers started since i was 6 years old when i first got my first computer and I started tinkering with it. At age 14, I Started working with sample HTML and CSS websites and gathering more technical skills through time in order to advance in my career. Now as my academic cursus I am doing software engineering and specialized in web developement. Add to that I am a solo learner for programming languages." +
     "\n\n" +
-    "You are very welcome in my personal portfolio website. Please feel free to take a look at the apps and samples i worked on and also browse my git-hub profile. In order to contact me you are welcomed to fill in the contact form right below or just hit me up on one of my social media accounts. You are able to text/call me through Telegram too.",
+    "You are very welcome in my personal portfolio website. Please feel free to take a look at the apps and samples i worked on and also browse my git-hub profile. In order to contact me you are welcomed to fill in the contact form right below or just hit me up on one of my social media accounts.",
 
   experiences: [
     {
       title: "Internship at PT ",
       description:
-        "• Internet anonymous forum project utilizing object storage servicess (S3,R2,B2) for media storage.",
+        "• I realized an Internet anonymous forum project with a decoupled architecture utilizing object storage servicess (S3,R2,B2) for media storage, a Linux VPS for Backend PHP API endpoints and Vercel for Frontend Nextjs app. Additionally, I optimized performance by implementing Memcached for efficient caching, enhancing the responsiveness of the application. Moreover, Cloudflare services such as rate limiting and WAF rules were leveraged to mitigate potential abuse and ensure service availability. ",
       date: "06/2023 - 07/2023",
     },
   ],
@@ -104,7 +104,7 @@ export default {
     {
       title: "National High School Diploma",
       description:
-        "• National High School Diploma Baccalauréat in Experimental Sciences from Kairouan high school.",
+        "• National High School Diploma Baccalauréat in Experimental Sciences from Kairouan Pioneer high school.",
       date: "2017",
     },
   ],
@@ -133,7 +133,7 @@ export default {
     },
     {
       title: "BACK-END",
-      description: ["NodeJS", "Java","Spring Boot", "Javascript","Express", "PHP"],
+      description: ["NodeJS", "Java", "Spring Boot", "Javascript", "Express", "PHP"],
     },
     {
       title: "DATABASES",
@@ -540,27 +540,6 @@ export default {
         },
         {
           link: "https://react-tinder-app-30619.web.app/",
-          icon: <Language />,
-        },
-      ],
-    },
-    //#endregion
-
-    //#region Project Tinder Clone App
-    {
-      tag: "Gatsby JS",
-      image:
-        "https://drive.google.com/uc?export=download&id=1LMWynINpR0TMNqXL3DW5i6KlY-Vkz1Is",
-      title: "Code Blog App",
-      caption: "Online Blog",
-      description: "Online Blog app about coding based on Gatsby and GraphQL",
-      links: [
-        {
-          link: "#/gatsby-blog-app",
-          icon: <GitHub />,
-        },
-        {
-          link: "https://gatsby-blog-app-#.netlify.app/",
           icon: <Language />,
         },
       ],

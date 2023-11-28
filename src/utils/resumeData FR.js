@@ -11,6 +11,7 @@ import {
   Pool,
   Computer,
   FitnessCenter,
+  Fireplace
 } from "@material-ui/icons";
 
 
@@ -27,7 +28,7 @@ export default {
     },
     {
       title: "Camping",
-      icon: <Pool />,
+      icon: <Fireplace />,
     },
     {
       title: "Weightlifting",
@@ -37,7 +38,7 @@ export default {
 
 
   name: "Gamgami Ahmed",
-  title: "Développeur FULL STACK",
+  title: "Développeur Full Stack",
   birthday: "25th Juin 1998",
   email: "gamgamiahmed@proton.me",
   address: "Sousse, Tunisie",
@@ -67,17 +68,17 @@ export default {
   about_me:
     "Bonjour visiteur 🙂 !" +
     "\n\n" +
-    "Je suis Gamgami Ahmed, un passionné Ingénieur Logiciel Junior tunisien. J'ai 25 ans, le cadet d'une sœur, élevé dans une famille heureuse et aimante." +
+    "Je suis Gamgami Ahmed, un passionné Ingénieur Logiciel Junior tunisien." +
     "\n\n" +
     "Ma passion pour l'informatique a commencé à l'âge de 6 ans lorsque j'ai eu mon premier ordinateur et j'ai commencé à bricoler avec. À 14 ans, j'ai commencé à travailler avec des sites Web en HTML et CSS et j'ai acquis plus de compétences techniques au fil du temps pour avancer dans ma carrière. Actuellement, je suis étudiant en génie logiciel et spécialisé en développement web. De plus, je suis un autodidacte pour les langages de programmation." +
     "\n\n" +
-    "Vous êtes les bienvenus sur mon site portfolio personnel. N'hésitez pas à jeter un œil aux applications et échantillons sur lesquels j'ai travaillé, ainsi qu'à parcourir mon profil GitHub. Pour me contacter, vous pouvez remplir le formulaire de contact juste en dessous ou me contacter sur l'un de mes comptes de médias sociaux. Vous pouvez également me contacter par texte/appel via Telegram.",
+    "Vous êtes les bienvenus sur mon site portfolio personnel. N'hésitez pas à jeter un œil aux applications et échantillons sur lesquels j'ai travaillé, ainsi qu'à parcourir mon profil GitHub. Pour me contacter, vous pouvez remplir le formulaire de contact juste en dessous ou me contacter sur l'un de mes comptes de médias sociaux.",
 
   experiences: [
     {
       title: "Stage chez PT ",
       description:
-        "• Projet de forum anonyme sur internet utilisant les services de stockage d'objets (S3, R2, B2) pour le stockage des médias.",
+        "• J'ai réalisé Projet de forum anonyme sur Internet avec une architecture découplée utilisant des services de stockage d'objets (S3, R2, B2) pour le stockage des médias, un VPS Linux pour les points de terminaison d'API Backend PHP et Vercel pour l'application Frontend Next.js. De plus, j'ai optimisé les performances en mettant en œuvre Memcached pour un cache efficace, améliorant la réactivité de l'application. Par ailleurs, j'ai utilisé les services de Cloudflare tels que la limitation de débit et les règles de pare-feu d'application Web (WAF) pour atténuer les abus potentiels et assurer la disponibilité du service.",
       date: "06/2023 - 07/2023",
     },
   ],
@@ -104,7 +105,7 @@ export default {
     {
       title: "Baccalauréat",
       description:
-        "• Baccalauréat en sciences expérimentales du lycée de Kairouan.",
+        "• Baccalauréat en sciences expérimentales du lycée pilote de Kairouan.",
       date: "2017",
     },
   ],
@@ -112,7 +113,7 @@ export default {
   services: [
     {
       title: "Développement Web",
-      description: "J'ai travaillé sur le développement web pendant 1 an.",
+      description: "Il y a plus q'un an que je travaille dans le développement web.",
       icon: <WebOutlined />,
     },
   ],

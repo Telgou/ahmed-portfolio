@@ -13,15 +13,15 @@ import "./Resume.css";
 import TimelineDot from "@material-ui/lab/TimelineDot";
 //import CustomButton from "../../components/CustomButton/CustomButton";
 
-function Resume({language}) {
-  const resumeDataTranslated = language === "en" ? resumeData : resumeDataFR ;
+function Resume({ language }) {
+  const resumeDataTranslated = language === "en" ? resumeData : resumeDataFR;
   return (
     <>
       {/* About me */}
       <Grid container className={"section pb_45 pt_45"}>
         <Grid item className={"section_title mb_30"}>
           <span></span>
-          <h6 className={"section_title_text"}>{language ==="en" ? "About Me" : "À Propos De Moi"}</h6>
+          <h6 className={"section_title_text"}>{language === "en" ? "About Me" : "À Propos De Moi"}</h6>
         </Grid>
         <Grid item xs={12}>
           <Typography variant={"body2"} className={"about_me_text"}>
@@ -41,7 +41,7 @@ function Resume({language}) {
           <Grid container className="resume_timeline">
             {/* Experience */}
             <Grid item sm={12} md={6}>
-              <CustomTimeline title={language =="en" ? "Work Experience" : "Expérience"} icon={<Work />}>
+              <CustomTimeline title={language == "en" ? "Work Experience" : "Expérience"} icon={<Work />}>
                 {resumeDataTranslated.experiences.map((experience) => (
                   <TimelineItem>
                     <CustomTimelineSeperator />
@@ -96,7 +96,7 @@ function Resume({language}) {
       <Grid container className={"section pb_45"}>
         <Grid item className={"section_title mb_30"}>
           <span></span>
-          <h6 className={"section_title_text"}>Mes Services</h6>
+          <h6 className={"section_title_text"}>{language === "en" ? "My Services" : "Mes Services"}</h6>
         </Grid>
         <Grid item xs={12}>
           <Grid container spacing={1} justify={"space-around"}>
@@ -127,7 +127,7 @@ function Resume({language}) {
         <Grid item xs={12}>
           <Grid item className={"section_title mb_30"}>
             <span></span>
-            <h6 className={"section_title_text"}>Mes Compténces</h6>
+            <h6 className={"section_title_text"}>{language === "en" ? "My Skills" : "Mes Compténces"}</h6>
           </Grid>
           <Grid container spacing={3} justify={"space-between"}>
             {resumeDataTranslated.skills.map((skill) => (
@@ -159,7 +159,7 @@ function Resume({language}) {
         <Grid item xs={12}>
           <Grid item className={"section_title mb_30"}>
             <span></span>
-            <h6 className={"section_title_text"}>Langues</h6>
+            <h6 className={"section_title_text"}>{language === "en" ? "Languages" : "Langues"}</h6>
           </Grid>
           <Grid container spacing={3} justify={"space-between"}>
             {resumeDataTranslated.languages.map((skill) => (
@@ -190,7 +190,7 @@ function Resume({language}) {
       <Grid container className={"section pb_45"}>
         <Grid item className={"section_title mb_30"}>
           <span></span>
-          <h6 className={"section_title_text"}>Mes Interets</h6>
+          <h6 className={"section_title_text"}>{language === "en" ? "My Interests" : "Mes Interets"}</h6>
         </Grid>
         <Grid item xs={12}>
           <Grid container spacing={1} justify={"space-around"}>

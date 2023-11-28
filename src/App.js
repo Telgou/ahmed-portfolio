@@ -36,7 +36,7 @@ function App() {
             </ScrollToTop>
           </Router>
 
-          <Footer />
+          <Footer language={language} />
         </Grid>
       </Grid>
     </Container>
