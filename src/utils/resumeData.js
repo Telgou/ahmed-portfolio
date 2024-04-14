@@ -50,7 +50,7 @@ export default {
       icon: <Facebook />,
     },
     LinkedIn: {
-      link: "https://linkedin.com/in/gamgami-ahmed-867046146",
+      link: "https://linkedin.com/in/gamgamiahmed",
       text: "/gamgami-ahmed",
       icon: <LinkedIn />,
     },
@@ -75,7 +75,7 @@ export default {
 
   experiences: [
     {
-      title: "Internship at PT ",
+      title: "Personal Project ",
       description:
         "• I realized an Internet anonymous forum project with a decoupled architecture utilizing object storage servicess (S3,R2,B2) for media storage, a Linux VPS for Backend PHP API endpoints and Vercel for Frontend Nextjs app. Additionally, I optimized performance by implementing Memcached for efficient caching, enhancing the responsiveness of the application. Moreover, Cloudflare services such as rate limiting and WAF rules were leveraged to mitigate potential abuse and ensure service availability. ",
       date: "06/2023 - 07/2023",
@@ -86,7 +86,7 @@ export default {
     {
       title: "1st year software engineering ",
       description:
-        "•  accomplished the first year of software engineering (common trunc) at Esprit with success",
+        "•  accomplished the first year of software engineering (common trunc) at EPI with success",
       date: "09/2022 - 06/2023",
     },
     {
@@ -99,14 +99,14 @@ export default {
       title: "Classic Preparatory Cycle",
       description:
         "• I accomplished the first year of classic preparatory school at Nabeul Preparatory Engineering Institute with success ",
-      date: "09/2017 - 06/2018",
+      date: "09/2020 - 06/2021",
     },
-    {
+    /*{
       title: "National High School Diploma",
       description:
         "• National High School Diploma Baccalauréat in Experimental Sciences from Kairouan Pioneer high school.",
-      date: "2017",
-    },
+      date: "2020",
+    },*/
   ],
 
   services: [
@@ -125,7 +125,7 @@ export default {
         "TypeScript",
         "ReactJS",
         "NextJS",
-        "Angular",
+        //"Angular",
         "Bootstrap",
         "SAAS",
         "TailWind",
@@ -133,11 +133,11 @@ export default {
     },
     {
       title: "BACK-END",
-      description: ["NodeJS", "Java", "Spring Boot", "Javascript", "Express", "PHP"],
+      description: ["NodeJS", "Spring Boot", "Express"/*, "PHP"*/],
     },
     {
       title: "DATABASES",
-      description: ["Oracle", "MySQL", "MongoDB"],
+      description: [/*"Oracle",*/ "MySQL", "MongoDB"],
     },
     {
       title: "SOURCE CONTROL",
@@ -145,7 +145,7 @@ export default {
     },
     {
       title: "DevOps",
-      description: ["Dockerization", "Microservices"],
+      description: ["Dockerization", "Microservices", "Jenkins", "Prometheus", "Grafana", "Node exporter", "Sonarqube", "Nexus"],
     },
     {
       title: "OPERATING SYSTEMS",
@@ -182,6 +182,7 @@ export default {
 
   projects: [
     //#region React JS Projects
+
     //#region Project Portfolio App
     {
       tag: "React JS",
@@ -203,10 +204,33 @@ export default {
       ],
     },
     //#endregion
+    //#endregion
 
-    //#region Project Video Chat App
+    //#region Nextjs Projects
+    //#region HCHAN
     {
-      tag: "React JS",
+      tag: "Next js",
+      image: "C'EST UN ESPACE RÉSERVÉ POUR L'IMAGE DU PROJET",
+      title: "Forum Anonyme",
+      caption: "Forum Anonyme",
+      description:
+        " Mise en place d'un forum anonyme avec une architecture découplée utilisant des services de stockage d'objets (S3, R2, B2) pour le stockage des médias, un VPS Linux pour les points de terminaison d'API Backend et Vercel pour l'application Frontend Next.js. Optimization des performances en mettant en œuvre Memcached pour un cache efficace, améliorant la réactivité de l'application. Utilisation des services de Cloudflare tels que la limitation de débit et les règles de pare-feu d'application Web (WAF) pour atténuer les abus potentiels et assurer la disponibilité du service.",
+      links: [
+        {
+          link: "https://github.com/Telgou/clinic-app",
+          icon: <GitHub />,
+        },
+        {
+          link: "C'EST UN ESPACE RÉSERVÉ POUR LE LIEN DU PROJET",
+          icon: <Language />,
+        },
+      ],
+    },
+    //#endregion
+
+    //#region Application de gestion des patients de la clinique
+    {
+      tag: "Next js",
       image: "THIS IS PLACEHOLDER FOR THE PROJECT IMAGE",
       title: "Clinic patients management App",
       caption: "patients management App",
@@ -223,383 +247,22 @@ export default {
       ],
     },
     //#endregion
-
-    //#region Project Netflix Clone App 1
-    {
-      tag: "React JS",
-      image:
-        "https://drive.google.com/uc?export=download&id=1Np9eLWkXis0uXDv0gTJjvMp9objJyCv2",
-      title: "Netflix Clone App 1",
-      caption: "Netflix Clone Version 1",
-      description:
-        "This project is a Netflix clone that uses the IMDb API to play movies trailers",
-      links: [
-        {
-          link: "#/react-netflix-app-1",
-          icon: <GitHub />,
-        },
-        {
-          link: "https://react-netflix-app-1.netlify.app/",
-          icon: <Language />,
-        },
-      ],
-    },
-    //#endregion
-
-    //#region Project Netflix Clone App 2
-    {
-      tag: "React JS",
-      image:
-        "https://drive.google.com/uc?export=download&id=1L6ZmBwm63hsqNUryV9BjdlVfy7Hb2uzD",
-      title: "Netflix Clone App 2",
-      caption: "Netflix Clone Version 2",
-      description:
-        "This project is a Netflix clone that uses the IMDb API to play movies trailers and FireBase for user login",
-      links: [
-        {
-          link: "#/react-netflix-app-2",
-          icon: <GitHub />,
-        },
-        {
-          link: "https://react-netflix-app-2.netlify.app/",
-          icon: <Language />,
-        },
-      ],
-    },
-    //#endregion
-
-    //#region Project Amazon Clone App
-    {
-      tag: "React JS",
-      image:
-        "https://drive.google.com/uc?export=download&id=1Z1QuipHNJtNR5CcQ6JCkpa7JtruezK8t",
-      title: "Amazon Clone App",
-      caption: "Online Shopping",
-      description:
-        "A clone for Amazon online shopping using FireBase for project hosting and user login",
-      links: [
-        {
-          link: "#/react-amazon-app",
-          icon: <GitHub />,
-        },
-        { link: "https://clone-#-682e5.web.app/", icon: <Language /> },
-      ],
-    },
-    //#endregion
-
-    //#region Project Covid 19 Tracker App 1
-    {
-      tag: "React JS",
-      image:
-        "https://drive.google.com/uc?export=download&id=1DQe3cFLZr2bLAwXhLkBbsaEA7ZOP-XLp",
-      title: "Covid 19 Tracker App 1",
-      caption: "Covid 19 Tracker Version 1",
-      description:
-        "Project that uses a public API to keep a track on the corona state worldwide",
-      links: [
-        {
-          link: "#/react-covid19-tracker-app-1",
-          icon: <GitHub />,
-        },
-        {
-          link: "https://covid19-tracker-app-#.web.app",
-          icon: <Language />,
-        },
-      ],
-    },
-    //#endregion
-
-    //#region Project Covid 19 Tracker App 2
-    {
-      tag: "React JS",
-      image: "https://drive.google.com/uc?id=1EudZx9cGyBC4cMC1Bs7xPGvXNXzhwhU1",
-      title: "Covid 19 Tracker App 2",
-      caption: "Covid 19 Tracker Version 2",
-      description:
-        "Project that uses a public API to keep a track on the corona state worldwide",
-      links: [
-        {
-          link: "#/react-covid19-tracker-app-2",
-          icon: <GitHub />,
-        },
-        {
-          link: "https://react-covid19-tracker-app-2.netlify.app",
-          icon: <Language />,
-        },
-      ],
-    },
-    //#endregion
-
-    //#region Project Alan AI News App
-    {
-      tag: "React JS",
-      image:
-        "https://drive.google.com/uc?export=download&id=19537gNav5z6AeJ-AxqdlnW1YxKtKh7O5",
-      title: "Alan AI News App",
-      caption: "AI News App",
-      description:
-        "New application that uses ALAN AI model to answer to questions",
-      links: [
-        {
-          link: "#/react-voice-controlled-news-app",
-          icon: <GitHub />,
-        },
-        {
-          link: "https://react-voice-controlled-news-app.netlify.app/",
-          icon: <Language />,
-        },
-      ],
-    },
-    //#endregion
-
-    //#region Project HOT or COLD Game App
-    {
-      tag: "React JS",
-      image:
-        "https://drive.google.com/uc?export=download&id=1w7Hc-w2A_yDSv6c9ClH0mTRqzqPJPvB3",
-      title: "HOT or COLD Game",
-      caption: "Prediction Game",
-      description:
-        "Random number prediciton game where player have to guess to number the game predicted",
-      links: [
-        {
-          link: "#/react-hot-cold-game-app",
-          icon: <GitHub />,
-        },
-        {
-          link: "https://react-hot-cold-game-app.netlify.app/",
-          icon: <Language />,
-        },
-      ],
-    },
-    //#endregion
-
-    //#region Project Advice Generator
-    {
-      tag: "React JS",
-      image: "https://drive.google.com/uc?id=1oUxkY_z_qhGEvy1ZF_ROfcCflt-eMts9",
-      title: "Advice Generator",
-      caption: "Advice Generator",
-      description: "Advice generator app using an API",
-      links: [
-        {
-          link: "#/react-advice-app",
-          icon: <GitHub />,
-        },
-        {
-          link: "https://react-advice-app-#.netlify.app",
-          icon: <Language />,
-        },
-      ],
-    },
-    //#endregion
-
-    //#region Project Face Landmark Detection App
-    {
-      tag: "React JS",
-      image:
-        "https://drive.google.com/uc?export=download&id=1nZTMpQA8Wj1jiuQTuAJIWjSvBsWw0CzS",
-      title: "Face Landmark Detection App",
-      caption: "Landmark Detecotor",
-      description:
-        "ML/AI base ReactJS app that detects face landmarks based on a pre-trained model",
-      links: [
-        {
-          link: "#/react-tfjs-face-landmark-detection-app",
-          icon: <GitHub />,
-        },
-        {
-          link: "https://react-tfjs-face-lm-detect-app.web.app",
-          icon: <Language />,
-        },
-      ],
-    },
-    //#endregion
-
-    //#region Project Youtube Clone App
-    {
-      tag: "React JS",
-      image:
-        "https://drive.google.com/uc?export=download&id=122nOa8ebj9d_Iy2tjaxF3Q_Dk-iRFyU5",
-      title: "Youtube Clone App",
-      caption: "Youtube Like App",
-      description:
-        "App that uses the Youtube API to search for videos and play them on screen",
-      links: [
-        {
-          link: "#/react-youtube-app",
-          icon: <GitHub />,
-        },
-        {
-          link: "https://react-youtube-app-#.netlify.app",
-          icon: <Language />,
-        },
-      ],
-    },
-    //#endregion
-
-    //#region Project Youtube Thumbnail App
-    {
-      tag: "React JS",
-      image:
-        "https://drive.google.com/uc?export=download&id=1h13sDJNdLzjJr9rR0toJTVCvwj5TAdhV",
-      title: "Youtube Thumbnail App",
-      caption: "Video Thumbnail",
-      description:
-        "Youtube inspired app that applies thumbnails to videos like on Youtube",
-      links: [
-        {
-          link: "#/react-youtube-thumbnail-app",
-          icon: <GitHub />,
-        },
-        {
-          link: "https://thumbnail-app-#.web.app/",
-          icon: <Language />,
-        },
-      ],
-    },
-    //#endregion
-
-    //#region Project Instagram Clone App
-    {
-      tag: "React JS",
-      image:
-        "https://drive.google.com/uc?export=download&id=1aN7EJK-h6R0692Rg01xAh5rqcnVBEjsC",
-      title: "Instagram Clone App",
-      caption: "Instagram Inspired",
-      description:
-        "Instagram like app for pictures sharing and comments with user login",
-      links: [
-        {
-          link: "#/react-instagram-app",
-          icon: <GitHub />,
-        },
-        {
-          link: "https://facebook-instagram-clone-9c07c.web.app/",
-          icon: <Language />,
-        },
-      ],
-    },
-    //#endregion
-
-    //#region Project Messenger Clone App
-    {
-      tag: "React JS",
-      image:
-        "https://drive.google.com/uc?export=download&id=1s98XVi3SGSIQTvEJB0cMUVnKMV9P07aR",
-      title: "Messenger Clone App",
-      caption: "Messenger Inspired",
-      description: "Messenger like app for real time chatting with user login",
-      links: [
-        {
-          link: "#/react-messenger-app",
-          icon: <GitHub />,
-        },
-        {
-          link: "https://react-messenger-app-d200c.web.app/",
-          icon: <Language />,
-        },
-      ],
-    },
-    //#endregion
-
-    //#region Project To-Do App
-    {
-      tag: "React JS",
-      image:
-        "https://drive.google.com/uc?export=download&id=1XY7-DH85o89vMKu_Zj51z2tK0pNRoGkd",
-      title: "To-Do App",
-      caption: "To Do Notes",
-      description: "A minimalist To-Do app that saves the tasks",
-      links: [
-        {
-          link: "#/react-todo-app",
-          icon: <GitHub />,
-        },
-        {
-          link: "https://todo-app-#-51a26.web.app/",
-          icon: <Language />,
-        },
-      ],
-    },
-    //#endregion
-
-    //#region Project Tinder Clone App
-    {
-      tag: "React JS",
-      image:
-        "https://drive.google.com/uc?export=download&id=1onCwtSm2xH8XVEDRepozqx7Di8OeH-Q_",
-      title: "Tinder Clone App",
-      caption: "Tinder Inspired",
-      description:
-        "Tinder like app to accept/reject people with user login and real time chat implemented",
-      links: [
-        {
-          link: "#/react-tinder-app",
-          icon: <GitHub />,
-        },
-        {
-          link: "https://react-tinder-app-30619.web.app/",
-          icon: <Language />,
-        },
-      ],
-    },
-    //#endregion
-    //#endregion
-
-    //#region MEAN Stack Projects
-    //#region Project Smart Trash Monitoring App
-    {
-      tag: "MEAN Stack",
-      image:
-        "https://drive.google.com/uc?export=download&id=1AGEkWq7ybkdkF92Tppq-cnCARzU3Kziy",
-      title: "Smart Trash Monitoring",
-      caption: "Public Trash Monitoring",
-      description:
-        "Trash Monitoring IoT System based on sensors and data collection",
-      links: [
-        {
-          link: "#/smart-trash-monitoring",
-          icon: <GitHub />,
-        },
-      ],
-    },
-    //#endregion
-    //#region Project Task Manager App
-    {
-      tag: "MEAN Stack",
-      image:
-        "https://drive.google.com/uc?export=download&id=1mbB05N3bTnhy0Z73mv577f-56AFfqJaL",
-      title: "Task Manager App",
-      caption: "Task Organizer",
-      description: "Task Manager to organize to do task with user login",
-      links: [
-        {
-          link: "#/smart-trash-monitoring",
-          icon: <GitHub />,
-        },
-        {
-          link: "https://mean-task-manager-app-#.netlify.app",
-          icon: <Language />,
-        },
-      ],
-    },
-    //#endregion
     //#endregion
 
     //#region MERN Stack Projects
-    //#region Project Memories App
+
+    //#region Unisolicalize App
     {
       tag: "MERN Stack",
       image:
         "https://drive.google.com/uc?export=download&id=1hHjMIkF9j56ki0gCso4uHQdfBfZbo-g5",
-      title: "Memories",
-      caption: "Share Memories",
+      title: "Unisocialize",
+      caption: "Unisocialize",
       description:
-        "Memories sharing app with user login, memory detail, suggested memories and more",
+        "Conception et développement d'un site web de médias sociaux dédié aux professeurs universitaires. Ce projet visait à créer une plateforme interactive permettant aux professeurs de partager des ressources exclusivement entre eux",
       links: [
         {
-          link: "#/mern-memories-app",
+          link: "https://github.com/Telgou/Frontend--PI-Project-2024-Cipher",
           icon: <GitHub />,
         },
         {
@@ -610,43 +273,26 @@ export default {
     },
     //#endregion
 
-    //#region Project Chat App
-    {
-      tag: "MERN Stack",
-      image:
-        "https://drive.google.com/uc?export=download&id=1uqxA0-j00G9Q8rtxnztiZOMDkXHTuho3",
-      title: "Chat App",
-      caption: "Real Time Chat",
-      description:
-        "Real Time chat with rooms concept for more that 2 participants based on user login",
-      links: [
-        {
-          link: "#/mern-chat-app",
-          icon: <GitHub />,
-        },
-        {
-          link: "https://mern-chat-app-#.netlify.app/",
-          icon: <Language />,
-        },
-      ],
-    },
     //#endregion
 
-    //#region Project PDF Generator App
+
+    //#region Spring-Angular Stack Projects
+    //#region Dorm App
     {
-      tag: "MERN Stack",
+      tag: "Spring-Angular Stack",
       image:
-        "https://drive.google.com/uc?export=download&id=1GATK9gGed1U1zXO187ylUZ6NjXjy8ZhD",
-      title: "PDF Generator",
-      caption: "Generate PDF from input",
-      description: "PDF Generator example based on user given input in a from",
+        "https://drive.google.com/uc?export=download&id=1hHjMIkF9j56ki0gCso4uHQdfBfZbo-g5",
+      title: "Projet foyer",
+      caption: "Projet foyer",
+      description:
+        "Développement d’une application de gestion de foyer universitaire axée sur l’optimisation de la réservation des logements.",
       links: [
         {
-          link: "#/pdf-generator-app",
+          link: "https://github.com/Telgou/Frontend--PI-Project-2024-Cipher",
           icon: <GitHub />,
         },
         {
-          link: "https://pdf-generator-app-#.netlify.app/",
+          link: "https://mern-memories-app-#.netlify.app/",
           icon: <Language />,
         },
       ],
@@ -654,93 +300,55 @@ export default {
     //#endregion
     //#endregion
 
-    //#region Python Projects
-    //#region Project Amazon Price Tracker
+
+    //#region DEVOPS Projects
+    //#region Project DEVOPS
     {
-      tag: "Python",
+      tag: "DEVOPS",
       image:
-        "https://drive.google.com/uc?export=download&id=1Q7CcvIIVbhBH7aHayC1u2i5itlfnV_N8",
-      title: "Amazon Price Tracker",
-      caption: "Price Tracker Automation",
+        "https://drive.google.com/uc?export=download&id=1hHjMIkF9j56ki0gCso4uHQdfBfZbo-g5",
+      title: "Devops Pipeline pour projet foyer",
+      caption: "Devops Pipeline pour projet foyer",
       description:
-        "Selenium Automation Script for price tracking, webscrapping amazon articles",
+        "Elaboration d'une pipeline CI/CD automatisée robuste pour le déploiement de l'application gestion foyer . Utilisation d'une gamme d'outils a permis une gestion du processus de développement, du contrôle qualité grâce aux tests unitaires, de la surveillance des performances, de la gestion des conteneurs, et du déploiement continu.",
       links: [
         {
-          link: "#/python-amazon-price-tracker",
+          link: "https://github.com/Telgou/devops-dormproject",
           icon: <GitHub />,
+        },
+        {
+          link: "https://mern-memories-app-#.netlify.app/",
+          icon: <Language />,
         },
       ],
     },
     //#endregion
+    //#endregion
 
-    //#region Project Amazon Price Tracker
+
+    //#region Microservices Projects
+    //#region Hotel App
     {
-      tag: "Python",
+      tag: "Microservices",
       image:
-        "https://drive.google.com/uc?export=download&id=1szlZpLfgkU322kVeSY9cyYGDaGQlp2xj",
-      title: "Car and Pedestrian Tracking Script",
-      caption: "Real Time Street Tracking",
+        "https://drive.google.com/uc?export=download&id=1hHjMIkF9j56ki0gCso4uHQdfBfZbo-g5",
+      title: "Projet Hotel Ghazela Heaven",
+      caption: "Projet Hotel Ghazela Heaven",
       description:
-        "Real Time Cars and Pedestrians Trackin AI model using video input or live camera",
+        "Développement d’une plateforme de gestion des services d'un hotel, ayant pour objectif la mise en place d’une architecture micro-services. Cette approche vise à décomposer l’application en composants indépendants.",
       links: [
         {
-          link: "#/python-opencv-tracking",
+          link: "https://github.com/telgou/MicroService",
           icon: <GitHub />,
+        },
+        {
+          link: "https://mern-memories-app-#.netlify.app/",
+          icon: <Language />,
         },
       ],
     },
+    //#endregion
     //#endregion
 
-    //#region Project Face Detector Script
-    {
-      tag: "Python",
-      image:
-        "https://drive.google.com/uc?export=download&id=1ZPY-bezGjyPAmcJmfKwgvUJAA2WZxp-H",
-      title: "Face Detector Script",
-      caption: "Real Time Face Detector",
-      description: "Face Detector AI model using video input or live camera",
-      links: [
-        {
-          link: "#/python-opencv-face-detector",
-          icon: <GitHub />,
-        },
-      ],
-    },
-    //#endregion
-
-    //#region Project Smile Detector Script
-    {
-      tag: "Python",
-      image:
-        "https://drive.google.com/uc?export=download&id=1nPrUjhYEbwtLYidi2o5bSkGCmG1NuSJo",
-      title: "Smile Detector Script",
-      caption: "Real Time Smile Detector",
-      description: "Smile Detector AI model using video input or live camera",
-      links: [
-        {
-          link: "#/python-opencv-smile-detector",
-          icon: <GitHub />,
-        },
-      ],
-    },
-    //#endregion
-
-    //#region Project Snake Game Script
-    {
-      tag: "Python",
-      image:
-        "https://drive.google.com/uc?export=download&id=1XM63hvIgMRc81mLAn3lxgwf9DFZCn3_n",
-      title: "Snake Game Script",
-      caption: "Classic Snake Game",
-      description: "The legacy of the classic Snake Game we all played as kids",
-      links: [
-        {
-          link: "#/python-snake-game",
-          icon: <GitHub />,
-        },
-      ],
-    },
-    //#endregion
-    //#endregion
   ],
 };
