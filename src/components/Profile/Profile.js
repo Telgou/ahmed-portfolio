@@ -58,7 +58,7 @@ function Profile({language}) {
           <CustomTimelineItem title={language =="en" ?"Phone":"Tél"} text={resumeDataTranslated.phone} />
         </CustomTimeline>
         <div className={"button_container"}>
-          <a href="#">
+          <a href="https://drive.google.com/uc?export=download&id=1wsiZI22TmYRSD_yWs2NN1p7UqLOeQrgrx" download={true}>
             <CustomButton text={language =="en" ? "Download CV" : "Télécharger CV"} icon={<GetAppIcon />} />
           </a>
         </div>

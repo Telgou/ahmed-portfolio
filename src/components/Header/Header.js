@@ -64,7 +64,8 @@ function Header({ props, setLanguage, language }) {
           ))}
           <a
             className={"hireme_btn"}
-            href={resumeDataTranslated.socials.Telegram.link}
+            //href={resumeDataTranslated.socials.Telegram.link}
+            href={`mailto:${resumeDataTranslated.email}`}
             target={"_blank"}
             rel="noreferrer"
           >
