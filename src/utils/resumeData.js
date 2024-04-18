@@ -306,7 +306,7 @@ export default {
     {
       tag: "DEVOPS",
       image:
-        "https://i.imgur.com/O1CrjsY.png",
+        "https://i.imgur.com/WAt5MuR.png",
       title: "Devops Pipeline pour projet foyer",
       caption: "Devops Pipeline pour projet foyer",
       description:
@@ -331,7 +331,7 @@ export default {
     {
       tag: "Microservices",
       image:
-        "https://i.imgur.com/WAt5MuR.png",
+        "https://i.imgur.com/SvPN2BO.png",
       title: "Projet Hotel Ghazela Heaven",
       caption: "Projet Hotel Ghazela Heaven",
       description:
