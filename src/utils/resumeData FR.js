@@ -305,7 +305,7 @@ export default {
     {
       tag: "DEVOPS",
       image:
-        "https://i.imgur.com/O1CrjsY.png",
+        "https://i.imgur.com/WAt5MuR.png",
       title: "Devops Pipeline pour projet foyer",
       caption: "Devops Pipeline pour projet foyer",
       description:

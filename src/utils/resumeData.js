@@ -331,7 +331,7 @@ export default {
     {
       tag: "Microservices",
       image:
-        "https://i.imgur.com/SvPN2BO.png",
+        "https://i.imgur.com/WAt5MuR.png",
       title: "Projet Hotel Ghazela Heaven",
       caption: "Projet Hotel Ghazela Heaven",
       description:
