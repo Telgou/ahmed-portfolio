@@ -188,18 +188,18 @@ export default {
     {
       tag: "React JS",
       image:
-        "https://drive.google.com/uc?export=download&id=1-3ak53hv7dEz_rAaE5V2Gw_pYG_byi6t",
+        "https://i.imgur.com/PvHR887.png",
       title: "Portfolio",
       caption: "Mon portfolio personnel",
       description:
         "Il s'agit de mon portfolio personnel où mon CV et tous mes projets sont partagés.",
       links: [
         {
-          link: "https://github.com/#/#-portfolio",
+          link: "https://github.com/Telgou/ahmed-portfolio-master",
           icon: <GitHub />,
         },
         {
-          link: "https://#-portfolio.netlify.app",
+          link: "https://ahmed-portfolio-master.vercel.app/",
           icon: <Language />,
         },
       ],
@@ -211,18 +211,18 @@ export default {
     //#region HCHAN
     {
       tag: "Next js",
-      image: "C'EST UN ESPACE RÉSERVÉ POUR L'IMAGE DU PROJET",
+      image: "https://i.imgur.com/sGhhGn9.png",
       title: "Forum Anonyme",
       caption: "Forum Anonyme",
       description:
         " Mise en place d'un forum anonyme avec une architecture découplée utilisant des services de stockage d'objets (S3, R2, B2) pour le stockage des médias, un VPS Linux pour les points de terminaison d'API Backend et Vercel pour l'application Frontend Next.js. Optimization des performances en mettant en œuvre Memcached pour un cache efficace, améliorant la réactivité de l'application. Utilisation des services de Cloudflare tels que la limitation de débit et les règles de pare-feu d'application Web (WAF) pour atténuer les abus potentiels et assurer la disponibilité du service.",
       links: [
         {
-          link: "https://github.com/Telgou/clinic-app",
+          link: "",
           icon: <GitHub />,
         },
         {
-          link: "C'EST UN ESPACE RÉSERVÉ POUR LE LIEN DU PROJET",
+          link: "",
           icon: <Language />,
         },
       ],
@@ -232,7 +232,7 @@ export default {
     //#region Application de gestion des patients de la clinique
     {
       tag: "Next js",
-      image: "C'EST UN ESPACE RÉSERVÉ POUR L'IMAGE DU PROJET",
+      image: "https://i.imgur.com/qppM9Kk.png",
       title: "Application de gestion des patients de la clinique",
       caption: "Application de gestion des patients",
       description: "",
@@ -242,7 +242,7 @@ export default {
           icon: <GitHub />,
         },
         {
-          link: "C'EST UN ESPACE RÉSERVÉ POUR LE LIEN DU PROJET",
+          link: "",
           icon: <Language />,
         },
       ],
@@ -255,7 +255,7 @@ export default {
     {
       tag: "MERN Stack",
       image:
-        "https://drive.google.com/uc?export=download&id=1hHjMIkF9j56ki0gCso4uHQdfBfZbo-g5",
+        "https://i.imgur.com/IuqKLfq.png",
       title: "Unisocialize",
       caption: "Unisocialize",
       description:
@@ -266,7 +266,7 @@ export default {
           icon: <GitHub />,
         },
         {
-          link: "https://mern-memories-app-#.netlify.app/",
+          link: "https://frontend-pi-project-2024-cipher.vercel.app/",
           icon: <Language />,
         },
       ],
@@ -280,18 +280,18 @@ export default {
     {
       tag: "Spring-Angular Stack",
       image:
-        "https://drive.google.com/uc?export=download&id=1hHjMIkF9j56ki0gCso4uHQdfBfZbo-g5",
+        "https://i.imgur.com/3oqzn8K.png",
       title: "Projet foyer",
       caption: "Projet foyer",
       description:
         "Développement d’une application de gestion de foyer universitaire axée sur l’optimisation de la réservation des logements.",
       links: [
         {
-          link: "https://github.com/Telgou/Frontend--PI-Project-2024-Cipher",
+          link: "https://github.com/Telgou/GestionFoyer-Frontend-main",
           icon: <GitHub />,
         },
         {
-          link: "https://mern-memories-app-#.netlify.app/",
+          link: "https://gestion-foyer-frontend-main.vercel.app/sign-in",
           icon: <Language />,
         },
       ],
@@ -305,7 +305,7 @@ export default {
     {
       tag: "DEVOPS",
       image:
-        "https://drive.google.com/uc?export=download&id=1hHjMIkF9j56ki0gCso4uHQdfBfZbo-g5",
+        "https://i.imgur.com/O1CrjsY.png",
       title: "Devops Pipeline pour projet foyer",
       caption: "Devops Pipeline pour projet foyer",
       description:
@@ -316,7 +316,7 @@ export default {
           icon: <GitHub />,
         },
         {
-          link: "https://mern-memories-app-#.netlify.app/",
+          link: "",
           icon: <Language />,
         },
       ],
@@ -330,18 +330,18 @@ export default {
     {
       tag: "Microservices",
       image:
-        "https://drive.google.com/uc?export=download&id=1hHjMIkF9j56ki0gCso4uHQdfBfZbo-g5",
+        "https://i.imgur.com/SvPN2BO.png",
       title: "Projet Hotel Ghazela Heaven",
       caption: "Projet Hotel Ghazela Heaven",
       description:
         "Développement d’une plateforme de gestion des services d'un hotel, ayant pour objectif la mise en place d’une architecture micro-services. Cette approche vise à décomposer l’application en composants indépendants.",
       links: [
         {
-          link: "https://github.com/telgou/MicroService",
+          link: "https://github.com/Telgou/MicroServices",
           icon: <GitHub />,
         },
         {
-          link: "https://mern-memories-app-#.netlify.app/",
+          link: "",
           icon: <Language />,
         },
       ],
