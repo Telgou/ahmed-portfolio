@@ -77,6 +77,12 @@ export default {
 
   experiences: [
     {
+      title: "Stage d'été chez eXo Platform ",
+      description:
+      "• Développement et maintenance de portlet Agenda, incluant l'implémentation et l'optimisation de fonctionnalités pour une gestion efficace des événements et des notifications dans l'environnement eXo Platform",
+      date: "07/2024 - 09/2024",
+    },
+    {
       title: "Projet Personnelle ",
       description:
         "• J'ai réalisé Projet de forum anonyme sur Internet avec une architecture découplée utilisant des services de stockage d'objets (S3, R2, B2) pour le stockage des médias, un VPS Linux pour les points de terminaison d'API Backend PHP et Vercel pour l'application Frontend Next.js. De plus, j'ai optimisé les performances en mettant en œuvre Memcached pour un cache efficace, améliorant la réactivité de l'application. Par ailleurs, j'ai utilisé les services de Cloudflare tels que la limitation de débit et les règles de pare-feu d'application Web (WAF) pour atténuer les abus potentiels et assurer la disponibilité du service.",
@@ -86,22 +92,22 @@ export default {
 
   educations: [
     {
-      title: "1ère année de génie logiciel ",
+      title: "2ème et 3ème année d'ingénierie",
       description:
-        "• Réussite de la première année de génie logiciel (tronc commun) à l'EPI.",
-      date: "09/2022 - 06/2023",
+        "• Réussite de la deuxième année d'ingénierie à ESPRIT.",
+      date: "09/2023 - présent",
     },
     {
-      title: "Cycle Préparatoire Intégré",
+      title: "Cycle Préparatoire Intégré et 1ère année de génie logiciel",
       description:
-        "• Réussite de la deuxième année du cycle préparatoire intégré à l'EPI ",
-      date: "09/2021 - 06/2022",
+        "• Réussite de la deuxième année du cycle préparatoire intégré et la première année de génie logiciel (tronc commun) à l'EPI ",
+      date: "09/2021 - 06/2023",
     },
     {
       title: "Cycle Préparatoire Classique",
       description:
         "• Réussite de la première année du cycle préparatoire classique à l'Institut Préparatoire d'Ingénierie de Nabeul avec succès",
-      date: "09/2020 - 06/2021",
+     // date: "09/2020 - 06/2021",
     },
     /*{
       title: "Baccalauréat",
@@ -126,7 +132,7 @@ export default {
         "JavaScript",
         //"TypeScript",
         "ReactJS",
-        //"NextJS",
+        "NextJS",
         //"Angular",
         //"Bootstrap",
         //"SAAS",
@@ -135,19 +141,19 @@ export default {
     },
     {
       title: "BACK-END",
-      description: ["NodeJS", /*"Spring Boot",*/ "Express"/*, "PHP"*/],
+      description: ["NodeJS", /*"Spring",*/ "Express"/*, "PHP"*/],
     },
     {
       title: "BASES DE DONNÉES",
-      description: [/*"Oracle",*/ "MySQL"/*, "MongoDB"*/],
+      description: [/*"Oracle",*/ "MySQL", "MongoDB"],
     },
     {
       title: "GESTION DE VERSION",
       description: ["Git"/*, "GitHub"*/],
     },
     {
-      title: "DevOps",
-      description: ["Dockerization",/* "Microservices", "Jenkins", "Prometheus", "Grafana", "Node exporter", "Sonarqube", "Nexus"*/],
+      title: "DevOps & Cloud",
+      description: ["Dockerization", /* "Microservices", "Jenkins", "Prometheus", "Grafana", "Node exporter", "Sonarqube", "Nexus"*/],
     },
     {
       title: "OS",

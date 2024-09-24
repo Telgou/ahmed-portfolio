@@ -58,7 +58,7 @@ function Profile({language}) {
           <CustomTimelineItem title={language =="en" ?"Phone":"Tél"} text={resumeDataTranslated.phone} />
         </CustomTimeline>
         <div className={"button_container"}>
-          <a href={language =="en" ? "https://drive.google.com/uc?export=download&id=1E8tCgdWV3HlN3VNX9Wo_kK8at7Sf8705" : "https://drive.google.com/uc?export=download&id=15WIm9yDrd26Wa3gD1s-I57iAMs1oqbss"} download={true}>
+          <a href={language =="en" ? "https://drive.google.com/uc?export=download&id=19-8o_58G3gjFqfK4uB46NY-9aB5deHJu" : "https://drive.google.com/uc?export=download&id=16tiF6T_xr2BtLPEQWU04r2UtM7EPIS6O"} download={true}>
             <CustomButton text={language =="en" ? "Download CV" : "Télécharger CV"} icon={<GetAppIcon />} />
           </a>
         </div>

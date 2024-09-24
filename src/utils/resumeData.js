@@ -75,6 +75,12 @@ export default {
 
   experiences: [
     {
+      title: "Summer Internship at eXo Platform",
+      description:
+        "• Development and maintenance of the Agenda portlet, including the implementation and optimization of features for efficient event and notification management within the eXo Platform environment",
+      date: "07/2024 - 09/2024",
+    },
+    {
       title: "Personal Project ",
       description:
         "• I realized an Internet anonymous forum project with a decoupled architecture utilizing object storage servicess (S3,R2,B2) for media storage, a Linux VPS for Backend PHP API endpoints and Vercel for Frontend Nextjs app. Additionally, I optimized performance by implementing Memcached for efficient caching, enhancing the responsiveness of the application. Moreover, Cloudflare services such as rate limiting and WAF rules were leveraged to mitigate potential abuse and ensure service availability. ",
@@ -84,22 +90,22 @@ export default {
 
   educations: [
     {
-      title: "1st year software engineering ",
+      title: "2nd and 3rd year of Engineering",
       description:
-        "•  accomplished the first year of software engineering (common trunc) at EPI with success",
-      date: "09/2022 - 06/2023",
+        "• Successfully completed the second year of Engineering at ESPRIT.",
+      date: "09/2023 - present",
     },
     {
-      title: "Integrated Preparatory Cycle",
+      title: "Integrated Preparatory Cycle and 1st year of Software Engineering",
       description:
-        "• I accomplished the second year of integrated preparatory school at EPI ",
-      date: "09/2021 - 06/2022",
-    },
+        "• Successfully completed the second year of the integrated preparatory cycle and the first year of Software Engineering (core curriculum) at EPI",
+      date: "09/2021 - 06/2023",
+    },    
     {
       title: "Classic Preparatory Cycle",
       description:
         "• I accomplished the first year of classic preparatory school at Nabeul Preparatory Engineering Institute with success ",
-      date: "09/2020 - 06/2021",
+    //  date: "09/2020 - 06/2021",
     },
     /*{
       title: "National High School Diploma",
@@ -124,7 +130,7 @@ export default {
         "JavaScript",
         //"TypeScript",
         "ReactJS",
-        //"NextJS",
+        "NextJS",
         //"Angular",
         //"Bootstrap",
         //"SAAS",
@@ -133,18 +139,18 @@ export default {
     },
     {
       title: "BACK-END",
-      description: ["NodeJS"/*, "Spring Boot"*/, "Express"/*, "PHP"*/],
+      description: ["NodeJS"/*, "Spring"*/, "Express"/*, "PHP"*/],
     },
     {
       title: "DATABASES",
-      description: [/*"Oracle",*/ "MySQL"/*, "MongoDB"*/],
+      description: [/*"Oracle",*/ "MySQL", "MongoDB"],
     },
     {
       title: "SOURCE CONTROL",
       description: ["Git"/*, "GitHub"*/],
     },
     {
-      title: "DevOps",
+      title: "DevOps & Cloud",
       description: ["Dockerization",/* "Microservices", "Jenkins", "Prometheus", "Grafana", "Node exporter", "Sonarqube", "Nexus"*/],
     },
     {
@@ -211,10 +217,10 @@ export default {
     {
       tag: "Next js",
       image: "https://i.imgur.com/sGhhGn9.png",
-      title: "Forum Anonyme",
-      caption: "Forum Anonyme",
+      title: "Anonymous Forum",
+      caption: "Anonymous Forum",
       description:
-        " Mise en place d'un forum anonyme avec une architecture découplée utilisant des services de stockage d'objets (S3, R2, B2) pour le stockage des médias, un VPS Linux pour les points de terminaison d'API Backend et Vercel pour l'application Frontend Next.js. Optimization des performances en mettant en œuvre Memcached pour un cache efficace, améliorant la réactivité de l'application. Utilisation des services de Cloudflare tels que la limitation de débit et les règles de pare-feu d'application Web (WAF) pour atténuer les abus potentiels et assurer la disponibilité du service.",
+        "I realized an Internet anonymous forum project with a decoupled architecture utilizing object storage servicess (S3,R2,B2) for media storage, a Linux VPS for Backend PHP API endpoints and Vercel for Frontend Nextjs app. Additionally, I optimized performance by implementing Memcached for efficient caching, enhancing the responsiveness of the application. Moreover, Cloudflare services such as rate limiting and WAF rules were leveraged to mitigate potential abuse and ensure service availability.",
       links: [
         {
           link: "",
@@ -259,7 +265,7 @@ export default {
       title: "Unisocialize",
       caption: "Unisocialize",
       description:
-        "Conception et développement d'un site web de médias sociaux dédié aux professeurs universitaires. Ce projet visait à créer une plateforme interactive permettant aux professeurs de partager des ressources exclusivement entre eux",
+        "Designed and developed a social media website dedicated to university professors. This project aimed to create an interactive platform for professors to share resources exclusively among themselves.",
       links: [
         {
           link: "https://github.com/Telgou/Frontend--PI-Project-2024-Cipher",
@@ -282,10 +288,10 @@ export default {
       tag: "Spring-Angular Stack",
       image:
         "https://i.imgur.com/3oqzn8K.png",
-      title: "Projet foyer",
-      caption: "Projet foyer",
+      title: "Dorm project",
+      caption: "Dorm project",
       description:
-        "Développement d’une application de gestion de foyer universitaire axée sur l’optimisation de la réservation des logements.",
+        "Development of a university dormitory management application focused on optimizing accommodation bookings and creating a matchmaking service based on an algorithm.",
       links: [
         {
           link: "https://github.com/Telgou/GestionFoyer-Frontend-main",
@@ -307,10 +313,10 @@ export default {
       tag: "DEVOPS",
       image:
         "https://i.imgur.com/WAt5MuR.png",
-      title: "Devops Pipeline pour projet foyer",
-      caption: "Devops Pipeline pour projet foyer",
+      title: "Devops Pipeline for the dorm project",
+      caption: "Devops Pipeline for the dorm project",
       description:
-        "Elaboration d'une pipeline CI/CD automatisée robuste pour le déploiement de l'application gestion foyer . Utilisation d'une gamme d'outils a permis une gestion du processus de développement, du contrôle qualité grâce aux tests unitaires, de la surveillance des performances, de la gestion des conteneurs, et du déploiement continu.",
+        "Developed a robust automated CI/CD pipeline for the application deployment. Utilized of a range of tools for managing the development process, quality control through unit testing, performance monitoring, container management, and continuous deployment.",
       links: [
         {
           link: "https://github.com/Telgou/devops-dormproject",
@@ -332,10 +338,10 @@ export default {
       tag: "Microservices",
       image:
         "https://i.imgur.com/SvPN2BO.png",
-      title: "Projet Hotel Ghazela Heaven",
-      caption: "Projet Hotel Ghazela Heaven",
+      title: "Hotel Ghazela Heaven Project",
+      caption: "Hotel Ghazela Heaven Project",
       description:
-        "Développement d’une plateforme de gestion des services d'un hotel, ayant pour objectif la mise en place d’une architecture micro-services. Cette approche vise à décomposer l’application en composants indépendants.",
+        " Developed a platform for managing hotel services, aiming to implement a microservices architecture. This approach aims to decompose the application into independent components.",
       links: [
         {
           link: "https://github.com/Telgou/MicroServices",
