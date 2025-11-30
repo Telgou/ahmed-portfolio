@@ -43,7 +43,7 @@ function Resume({ language }) {
             <Grid item sm={12} md={6}>
               <CustomTimeline title={language == "en" ? "Work Experience" : "Expérience"} icon={<Work />}>
                 {resumeDataTranslated.experiences.map((experience) => (
-                  <TimelineItem>
+                  <TimelineItem key={experience.title}>
                     <CustomTimelineSeperator />
                     <TimelineContent className="timeline_content">
                       <Typography className="timeline_title">
@@ -51,6 +51,9 @@ function Resume({ language }) {
                       </Typography>
                       <Typography variant={"caption"} className="timeline_date">
                         {experience.date}
+                        <span className="cursor-pointer " onClick={() => window.open("https://www.exoplatform.com/")}>
+                          {experience.company}
+                        </span>
                       </Typography>
                       <Typography
                         variant={"body2"}
@@ -68,7 +71,7 @@ function Resume({ language }) {
             <Grid item sm={12} md={6}>
               <CustomTimeline title={"Education"} icon={<School />}>
                 {resumeDataTranslated.educations.map((education) => (
-                  <TimelineItem>
+                  <TimelineItem key={education.title}>
                     <CustomTimelineSeperator />
                     <TimelineContent className="timeline_content">
                       <Typography className="timeline_title">
@@ -99,12 +102,13 @@ function Resume({ language }) {
           <h6 className={"section_title_text"}>{language === "en" ? "My Services" : "Mes Services"}</h6>
         </Grid>
         <Grid item xs={12}>
-          <Grid container spacing={1} justify={"space-around"}>
-            {resumeDataTranslated.services.map((service) => (
-              <Grid item xs={12} sm={6} md={3}>
+          <Grid container spacing={1} className="justify-around">
+            {resumeDataTranslated.services.map((service, index) => (
+              <Grid item xs={12} sm={6} md={3} key={`${service.title}-${index}`}>
                 <Paper elevation={5} className={"skill"}>
                   <div className="service">
-                    <Icon className="service_icon">{service.icon}</Icon>
+                    <service.icon className="service_icon" />
+
                     <Typography varian={"h6"} className={"service_title"}>
                       {service.title}
                     </Typography>
@@ -129,17 +133,19 @@ function Resume({ language }) {
             <span></span>
             <h6 className={"section_title_text"}>{language === "en" ? "My Skills" : "Mes Compténces"}</h6>
           </Grid>
-          <Grid container spacing={3} justify={"space-between"}>
-            {resumeDataTranslated.skills.map((skill) => (
-              <Grid item xs={12} sm={6} md={3}>
+          <Grid container spacing={3} className="justify-between">
+            {resumeDataTranslated.skills.map((skill, index) => (
+              <Grid item xs={12} sm={6} md={3}
+                key={`${skill.title}-desc-${index}`}>
                 <Paper elevation={0} className={"skill"}>
                   <Typography varian={"h6"} className={"skill_title"}>
                     {skill.title}
                   </Typography>
-                  {skill.description.map((element) => (
+                  {skill.description.map((element, index) => (
                     <Typography
                       variant={"body2"}
                       className={"skill_description"}
+                      key={`${element}-${index}`}
                     >
                       <TimelineDot
                         variant={"outlined"}
@@ -161,17 +167,18 @@ function Resume({ language }) {
             <span></span>
             <h6 className={"section_title_text"}>{language === "en" ? "Languages" : "Langues"}</h6>
           </Grid>
-          <Grid container spacing={3} justify={"space-between"}>
-            {resumeDataTranslated.languages.map((skill) => (
-              <Grid item xs={12} sm={6} md={3}>
+          <Grid container spacing={3} className="justify-between">
+            {resumeDataTranslated.languages.map((skill, index) => (
+              <Grid item xs={12} sm={6} md={3} key={`${skill.title}-desc-${index}`}>
                 <Paper elevation={0} className={"skill"}>
                   <Typography varian={"h6"} className={"skill_title"}>
                     {skill.title}
                   </Typography>
-                  {skill.description.map((element) => (
+                  {skill.description.map((element, index) => (
                     <Typography
                       variant={"body2"}
                       className={"skill_description"}
+                      key={`${element}-${index}`}
                     >
                       <TimelineDot
                         variant={"outlined"}
@@ -193,14 +200,15 @@ function Resume({ language }) {
           <h6 className={"section_title_text"}>{language === "en" ? "My Interests" : "Mes Interets"}</h6>
         </Grid>
         <Grid item xs={12}>
-          <Grid container spacing={1} justify={"space-around"}>
-            {resumeDataTranslated.interests.map((interests) => (
-              <Grid item xs={12} sm={6} md={3}>
+          <Grid container spacing={1} className="justify-around">
+            {resumeDataTranslated.interests.map((interest, index) => (
+              <Grid item xs={12} sm={6} md={3} key={`${interest.title}-${index}`}>
                 <Paper elevation={5} className={"interests"}>
                   <div className="interests">
-                    <Icon className="interests_icon">{interests.icon}</Icon>
+                    <interest.icon className="interests_icon" />
+
                     <Typography varian={"h6"} className={"interests_title"}>
-                      {interests.title}
+                      {interest.title}
                     </Typography>
                   </div>
                 </Paper>

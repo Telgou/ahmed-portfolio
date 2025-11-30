@@ -43,25 +43,29 @@ function Header({ props, setLanguage, language }) {
           >
             Portfolio
           </Nav.Link>
-          <button className="border-0 bg-white"  onClick={() => setLanguage('en')}>
-            <span class="fi fi-us"></span>
+          <button className="border-0 bg-white" onClick={() => setLanguage('en')}>
+            <span className="fi fi-us"></span>
           </button>
-          <button className="border-0 bg-white"  onClick={() => setLanguage('fr')}>
-            <span class="fi fi-fr"></span>
+          <button className="border-0 bg-white" onClick={() => setLanguage('fr')}>
+            <span className="fi fi-fr"></span>
           </button>
 
         </Nav>
 
         <div className="header_right">
-          {Object.keys(resumeDataTranslated.socials).map((key) => (
-            <a
-              href={resumeDataTranslated.socials[key].link}
-              target={"_blank"}
-              rel="noreferrer"
-            >
-              {resumeDataTranslated.socials[key].icon}
-            </a>
-          ))}
+          {Object.keys(resumeDataTranslated.socials).map((key) => {
+            const IconComponent = resumeDataTranslated.socials[key].icon;
+            return (
+              <a
+                href={resumeDataTranslated.socials[key].link}
+                target={"_blank"}
+                rel="noreferrer"
+                key={key}
+              >
+                <IconComponent />
+              </a>
+            )
+          })}
           <a
             className={"hireme_btn"}
             //href={resumeDataTranslated.socials.Telegram.link}

@@ -11,7 +11,12 @@ import {
   Pool,
   Computer,
   FitnessCenter,
-  Fireplace
+  Fireplace,
+  MobileOffOutlined,
+  MobileFriendlyTwoTone,
+  AndroidOutlined,
+  Web,
+  OpenInBrowserSharp
 } from "@material-ui/icons";
 
 
@@ -21,107 +26,109 @@ export default {
   interests: [
     {
       title: "Bricolage PC",
-      icon: <Computer />,
+      icon: Computer,
     },
     {
       title: "Natation",
-      icon: <Pool />,
+      icon: Pool,
     },
     {
       title: "Camping",
-      icon: <Fireplace />,
+      icon: Fireplace,
     },
     {
       title: "Weightlifting",
-      icon: <FitnessCenter />,
+      icon: FitnessCenter,
     },
   ],
 
 
   name: "Gamgami Ahmed",
   title: "Développeur Full Stack",
-  birthday: "25th Juin 1998",
   email: "gamgamiahmed@proton.me",
-  address: "Sousse, Tunisie",
-  phone: "+216 95 651 447",
+  address: "Tunis, Tunisie",
 
   socials: {
     Facebook: {
       link: "https://www.facebook.com/ahmedgamgami",
       text: "/ahmedgamgami",
-      icon: <Facebook />,
+      icon: Facebook,
     },
     LinkedIn: {
       link: "https://linkedin.com/in/gamgamiahmed",
       text: "/gamgami-ahmed",
-      icon: <LinkedIn />,
+      icon: LinkedIn,
     },
     GitHub: {
       link: "https://github.com/Telgou",
       text: "/Telgou",
-      icon: <GitHub />,
-    },
-    Telegram: {
-      link: "#",
+      icon: GitHub,
     },
   },
 
   about_me:
     "Bonjour visiteur 🙂 !" +
     "\n\n" +
-    "Je suis Gamgami Ahmed, un passionné Ingénieur Logiciel Junior tunisien." +
+    "Je suis Gamgami Ahmed, un Ingénieur Logiciel Junior Tunisien passionné." +
+    " Je suis expérimenté en Next.js et l'écosystème Node.js (Express, NestJS)." +
     "\n\n" +
-    "Ma passion pour l'informatique a commencé à l'âge de 6 ans lorsque j'ai eu mon premier ordinateur et j'ai commencé à bricoler avec. À 14 ans, j'ai commencé à travailler avec des sites Web en HTML et CSS et j'ai acquis plus de compétences techniques au fil du temps pour avancer dans ma carrière. Actuellement, je suis étudiant en génie logiciel et spécialisé en développement web. De plus, je suis un autodidacte pour les langages de programmation." +
+    "Ma passion pour l'informatique et les ordinateurs a commencé depuis que j'avais 6 ans lorsque j'ai eu mon premier ordinateur et j'ai commencé à bricoler avec. À l'âge de 14 ans, j'ai commencé à travailler avec des sites Web simples en HTML et CSS et j'ai acquis plus de compétences techniques au fil du temps. J'ai terminé mon Diplôme National d'Ingénieur en Informatique avec Mention Très Bien." +
     "\n\n" +
-    "Vous êtes les bienvenus sur mon site portfolio personnel. N'hésitez pas à jeter un œil aux applications et échantillons sur lesquels j'ai travaillé, ainsi qu'à parcourir mon profil GitHub. Pour me contacter, vous pouvez remplir le formulaire de contact juste en dessous ou me contacter sur l'un de mes comptes de médias sociaux.",
+    "Vous êtes les bienvenus sur mon site portfolio personnel. N'hésitez pas à jeter un œil aux applications et échantillons sur lesquels j'ai travaillé, ainsi qu'à parcourir mon profil GitHub. Pour me contacter, vous pouvez simplement me contacter sur l'un de mes comptes de médias sociaux.",
 
   experiences: [
     {
-      title: "Stage d'été chez eXo Platform ",
+      title: "Développement de Plateforme de Compteurs Smart Grid",
+      company: "Telnet Group",
+      location: "Tunis, Tunisie",
       description:
-      "• Développement et maintenance de portlet Agenda, incluant l'implémentation et l'optimisation de fonctionnalités pour une gestion efficace des événements et des notifications dans l'environnement eXo Platform",
-      date: "07/2024 - 09/2024",
+        "• Conception et développement d'une plateforme interactive avec une carte géographique visualisant l'emplacement des compteurs intelligents en utilisant leurs coordonnées GPS et des graphiques dynamiques pour surveiller les lectures des compteurs." +
+        "\n \n" +
+        "• Optimisation des temps de réponse de l'API en implémentant la mise en cache avec Redis, réduisant la latence des requêtes de 220ms à moins de 130ms." +
+        "\n \n" +
+        "• Déploiement et orchestration de l'application complète dans Azure Container Apps.",
+      date: "2025",
     },
     {
-      title: "Projet Personnelle ",
+      title: "Développement de Portlet Web",
+      company: " chez eXo Platform",
+      location: "Tunis, Tunisie",
       description:
-        "• J'ai réalisé Projet de forum anonyme sur Internet avec une architecture découplée utilisant des services de stockage d'objets (S3, R2, B2) pour le stockage des médias, un VPS Linux pour les points de terminaison d'API Backend PHP et Vercel pour l'application Frontend Next.js. De plus, j'ai optimisé les performances en mettant en œuvre Memcached pour un cache efficace, améliorant la réactivité de l'application. Par ailleurs, j'ai utilisé les services de Cloudflare tels que la limitation de débit et les règles de pare-feu d'application Web (WAF) pour atténuer les abus potentiels et assurer la disponibilité du service.",
-      date: "06/2023 - 07/2023",
+        "• Développement et maintenance du portlet Agenda, incluant l'implémentation et l'optimisation de fonctionnalités pour une gestion efficace des événements et des notifications dans l'environnement eXo Platform." +
+        "\n \n" +
+        "• Modification des modèles Groovy pour les notifications par e-mail dynamiques, en utilisant Groovy TemplateEngine pour rendre le contenu personnalisé.",
+      date: "2024, Stage",
     },
   ],
 
   educations: [
     {
-      title: "2ème et 3ème année d'ingénierie",
+      title: "Diplôme National d'Ingénieur en Informatique (Mention Très Bien)",
+      institution: "École Supérieure Privée d'Ingénierie et de Technologie - Esprit",
+      location: "Tunis, Tunisie",
       description:
-        "• Réussite de la deuxième année d'ingénierie à ESPRIT.",
-      date: "09/2023 - présent",
+        "• Diplôme National d'Ingénieur en Informatique obtenu avec Mention Excellent.",
+      date: "2021 - 2025",
     },
     {
-      title: "Cycle Préparatoire Intégré et 1ère année de génie logiciel",
+      title: "Cycle Préparatoire aux Études d'Ingénierie",
+      institution: "Institut Préparatoire aux Études d'Ingénierie de Nabeul - IPEIN",
+      location: "Nabeul, Tunisie",
       description:
-        "• Réussite de la deuxième année du cycle préparatoire intégré et la première année de génie logiciel (tronc commun) à l'EPI ",
-      date: "09/2021 - 06/2023",
+        "• Cycle préparatoire aux études d'ingénierie complété.",
     },
-    {
-      title: "Cycle Préparatoire Classique",
-      description:
-        "• Réussite de la première année du cycle préparatoire classique à l'Institut Préparatoire d'Ingénierie de Nabeul avec succès",
-     // date: "09/2020 - 06/2021",
-    },
-    /*{
-      title: "Baccalauréat",
-      description:
-        "• Baccalauréat en sciences expérimentales du lycée pilote de Kairouan.",
-      date: "2020",
-    },*/
   ],
 
   services: [
     {
       title: "Développement Web",
-      description: "Il y a plus q'un an que je travaille dans le développement web.",
-      icon: <WebOutlined />,
+      description: "Je travaille en tant que développeur web depuis plus d'un an.",
+      icon: Language,
+    },
+    {
+      title: "Développement Mobile",
+      description: "J'apprends le développement mobile en utilisant Expo et React Native. J'ai publié ma première application sur le Play Store.",
+      icon: AndroidOutlined ,
     },
   ],
 
@@ -130,34 +137,30 @@ export default {
       title: "FRONT-END",
       description: [
         "JavaScript",
-        //"TypeScript",
-        "ReactJS",
-        "NextJS",
-        //"Angular",
-        //"Bootstrap",
-        //"SAAS",
-        //"TailWind",
+        "TypeScript",
+        "React",
+        "Next.js",
       ],
     },
     {
       title: "BACK-END",
-      description: ["NodeJS", /*"Spring",*/ "Express"/*, "PHP"*/],
+      description: ["Node.js", "Express", "NestJS"],
     },
     {
       title: "BASES DE DONNÉES",
-      description: [/*"Oracle",*/ "MySQL", "MongoDB"],
-    },
-    {
-      title: "GESTION DE VERSION",
-      description: ["Git"/*, "GitHub"*/],
+      description: ["MongoDB", "MySQL"],
     },
     {
       title: "DevOps & Cloud",
-      description: ["Dockerization", /* "Microservices", "Jenkins", "Prometheus", "Grafana", "Node exporter", "Sonarqube", "Nexus"*/],
+      description: ["Docker", "Git"],
     },
     {
-      title: "OS",
-      description: [/*"Linux",*/ "Windows"],
+      title: "OUTILS DE COLLABORATION",
+      description: ["Jira", "Miro"],
+    },
+    {
+      title: "OUTILS DE DÉVELOPPEMENT",
+      description: ["VS Code", "Postman"],
     },
   ],
 
@@ -192,21 +195,21 @@ export default {
     //#region React JS Projects
     //#region Project Portfolio App
     {
-      tag: "React JS",
+      tag: "React",
       image:
         "https://i.imgur.com/PvHR887.png",
       title: "Portfolio",
-      caption: "Mon portfolio personnel",
+      caption: "Mon Portfolio Personnel",
       description:
         "Il s'agit de mon portfolio personnel où mon CV et tous mes projets sont partagés.",
       links: [
         {
           link: "https://github.com/Telgou/ahmed-portfolio-master",
-          icon: <GitHub />,
+          icon: GitHub,
         },
         {
           link: "https://ahmed-portfolio-master.vercel.app/",
-          icon: <Language />,
+          icon: Language,
         },
       ],
     },
@@ -214,22 +217,22 @@ export default {
     //#endregion
 
     //#region Nextjs Projects
-    //#region HCHAN
+    //#region Forum Development
     {
-      tag: "Next js",
+      tag: "NextJS",
       image: "https://i.imgur.com/sGhhGn9.png",
-      title: "Forum Anonyme",
-      caption: "Forum Anonyme",
+      title: "Développement de Forum",
+      caption: "Développement de Forum",
       description:
-        " Mise en place d'un forum anonyme avec une architecture découplée utilisant des services de stockage d'objets (S3, R2, B2) pour le stockage des médias, un VPS Linux pour les points de terminaison d'API Backend et Vercel pour l'application Frontend Next.js. Optimization des performances en mettant en œuvre Memcached pour un cache efficace, améliorant la réactivité de l'application. Utilisation des services de Cloudflare tels que la limitation de débit et les règles de pare-feu d'application Web (WAF) pour atténuer les abus potentiels et assurer la disponibilité du service.",
+        "Conception d'un forum avec une architecture découplée utilisant des services de stockage d'objets (Cloudflare R2) pour le stockage des médias, un VPS Linux pour l'API Backend et Vercel pour l'application Frontend. Réduction du temps de réponse de l'API de 30% en implémentant Memcached pour la mise en cache des réponses JSON. Atteint un score Google Lighthouse de 90 en performance et accessibilité. Implémentation de mesures de sécurité via Cloudflare : limitation de débit et règles de pare-feu d'application Web (WAF) pour atténuer les abus potentiels et assurer la disponibilité.",
       links: [
         {
           link: "",
-          icon: <GitHub />,
+          icon: GitHub,
         },
         {
           link: "",
-          icon: <Language />,
+          icon: Language,
         },
       ],
     },
@@ -237,7 +240,7 @@ export default {
 
     //#region Application de gestion des patients de la clinique
     {
-      tag: "Next js",
+      tag: "NextJS",
       image: "https://i.imgur.com/qppM9Kk.png",
       title: "Application de gestion des patients de la clinique",
       caption: "Application de gestion des patients",
@@ -245,19 +248,66 @@ export default {
       links: [
         {
           link: "https://github.com/Telgou/clinic-app",
-          icon: <GitHub />,
+          icon: GitHub,
         },
         {
           link: "",
-          icon: <Language />,
+          icon: Language,
         },
       ],
     },
     //#endregion
 
+    //#region Dashboard Project
+    {
+      tag: "NextJS NestJS",
+      image: "smartgridmeterdashboard.JPG",
+      title: "Smart Grid Meters Platform Development",
+      caption: "Smart Grid Dashboard",
+      description:
+        "• Conception et développement d’une plateforme interactive intégrant une carte géographique affichant la localisation des compteurs intelligents via leurs coordonnées GPS.\n" +
+        "• Création de graphiques dynamiques en temps réel pour le suivi des relevés des compteurs.\n" +
+        "• Mise en place d’un système de cache Redis, réduisant la latence des API de 220 ms à moins de 130 ms.\n" +
+        "• Déploiement et orchestration complète de l’application sur Azure Container Apps.",
+      links: [
+        {
+          link: "",
+          icon: null,
+        },
+        {
+          link: "",
+          icon: null,
+        },
+      ],
+    },
+    //#endregion
+
+    //#region React Native Projects
+    //#region Tawssila
+    {
+      tag: "React Native(Expo)",
+      image: "tawssila.JPG",
+      title: "Application Mobile de Covoiturage: Tawssila",
+      caption: "Tawssila",
+      description:
+        "Conception et développement d'une application mobile de covoiturage utilisant Expo et React Native, offrant une plateforme à plus de 650 utilisateurs pour proposer et rejoindre des trajets. Utilisation de Firebase Firestore pour stocker les propositions de trajets, avec des règles de sécurité et une authentification pour protéger l'accès aux données. Implémentation de fonctions cloud pour écouter les nouvelles publications de trajets et notifier automatiquement les utilisateurs abonnés via FCM. Construction d'un système de messagerie en temps réel entre conducteurs et passagers utilisant Firebase Realtime Database.",
+      links: [
+        {
+          link: "https://play.google.com/store/apps/details?id=com.telgou.Tawssila",
+          icon: AndroidOutlined ,
+        },
+        {
+          link: "https://tawssila.vercel.app/",
+          icon: Language,
+        },
+      ],
+    },
+    //#endregion
+    //#endregion
 
     //#region MERN Stack Projects
-    //#region Unisocialize App
+
+    //#region Unisolicalize App
     {
       tag: "MERN Stack",
       image:
@@ -265,15 +315,15 @@ export default {
       title: "Unisocialize",
       caption: "Unisocialize",
       description:
-        "Conception et développement d'un site web de médias sociaux dédié aux professeurs universitaires. Ce projet visait à créer une plateforme interactive permettant aux professeurs de partager des ressources exclusivement entre eux",
+        "Conception et développement d'un site web de médias sociaux dédié aux professeurs universitaires. Ce projet visait à créer une plateforme interactive permettant aux professeurs de partager des ressources exclusivement entre eux.",
       links: [
         {
           link: "https://github.com/Telgou/Frontend--PI-Project-2024-Cipher",
-          icon: <GitHub />,
+          icon: GitHub,
         },
         {
           link: "https://frontend-pi-project-2024-cipher.vercel.app/",
-          icon: <Language />,
+          icon: Language,
         },
       ],
     },
@@ -290,15 +340,15 @@ export default {
       title: "Projet foyer",
       caption: "Projet foyer",
       description:
-        "Développement d’une application de gestion de foyer universitaire axée sur l’optimisation de la réservation des logements.",
+        "Développement d'une application de gestion de foyer universitaire axée sur l'optimisation de la réservation des logements et la création d'un service de mise en relation basé sur un algorithme.",
       links: [
         {
           link: "https://github.com/Telgou/GestionFoyer-Frontend-main",
-          icon: <GitHub />,
+          icon: GitHub,
         },
         {
           link: "https://gestion-foyer-frontend-main.vercel.app/sign-in",
-          icon: <Language />,
+          icon: Language,
         },
       ],
     },
@@ -312,18 +362,18 @@ export default {
       tag: "DEVOPS",
       image:
         "https://i.imgur.com/WAt5MuR.png",
-      title: "Devops Pipeline pour projet foyer",
-      caption: "Devops Pipeline pour projet foyer",
+      title: "Pipeline DevOps pour le projet foyer",
+      caption: "Pipeline DevOps pour le projet foyer",
       description:
-        "Elaboration d'une pipeline CI/CD automatisée robuste pour le déploiement de l'application gestion foyer . Utilisation d'une gamme d'outils a permis une gestion du processus de développement, du contrôle qualité grâce aux tests unitaires, de la surveillance des performances, de la gestion des conteneurs, et du déploiement continu.",
+        "Développement d'une pipeline CI/CD automatisée robuste pour le déploiement de l'application. Utilisation d'une gamme d'outils pour la gestion du processus de développement, le contrôle qualité grâce aux tests unitaires, la surveillance des performances, la gestion des conteneurs, et le déploiement continu.",
       links: [
         {
           link: "https://github.com/Telgou/devops-dormproject",
-          icon: <GitHub />,
+          icon: GitHub,
         },
         {
           link: "",
-          icon: <Language />,
+          icon: Language,
         },
       ],
     },
@@ -340,15 +390,15 @@ export default {
       title: "Projet Hotel Ghazela Heaven",
       caption: "Projet Hotel Ghazela Heaven",
       description:
-        "Développement d’une plateforme de gestion des services d'un hotel, ayant pour objectif la mise en place d’une architecture micro-services. Cette approche vise à décomposer l’application en composants indépendants.",
+        "Développement d'une plateforme de gestion des services d'un hôtel, visant à mettre en place une architecture microservices. Cette approche vise à décomposer l'application en composants indépendants.",
       links: [
         {
           link: "https://github.com/Telgou/MicroServices",
-          icon: <GitHub />,
+          icon: GitHub,
         },
         {
           link: "",
-          icon: <Language />,
+          icon: Language,
         },
       ],
     },

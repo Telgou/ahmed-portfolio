@@ -5,6 +5,7 @@
     line-height: 22px !important;
     white-space: pre-line !important;
 }
+
 /* #endregion */
 
 /* #region Timeline */
@@ -22,7 +23,11 @@
     font-size: small;
     margin-top: 6px;
 }
+
 /* #endregion */
+.timeline_description {
+    white-space: pre-line;
+}
 
 /* #region Services */
 .service {
@@ -44,12 +49,13 @@
     text-align: center;
 }
 
-.service_icon > .MuiSvgIcon-root {
+.service_icon>.MuiSvgIcon-root {
     font-size: 46px !important;
     margin-left: 0 !important;
     font-weight: 300 !important;
     color: darkslategray !important;
 }
+
 /* #endregion */
 
 /* #region Skills */
@@ -80,6 +86,7 @@
     padding: 2px !important;
     margin-right: 5px !important;
 }
+
 /* #endregion */
 
 /* #region interests */
@@ -102,12 +109,13 @@
     text-align: center;
 }
 
-.interests_icon > .MuiSvgIcon-root {
+.interests_icon>.MuiSvgIcon-root {
     font-size: 46px !important;
     margin-left: 0 !important;
     font-weight: 300 !important;
     color: darkslategray !important;
 }
+
 /* #endregion */
 
 
@@ -118,7 +126,7 @@
     line-height: 34px !important;
 }
 
-.contactInfo_item > span {
+.contactInfo_item>span {
     color: black;
     font-weight: 500;
 }
@@ -127,9 +135,10 @@
     margin-top: 25px;
 }
 
-.contactInfo_social > a > .MuiSvgIcon-root {
+.contactInfo_social>a>.MuiSvgIcon-root {
     font-size: 16px !important;
     margin-right: 10px;
     color: black;
 }
+
 /* #endregion */

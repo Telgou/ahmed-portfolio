@@ -13,6 +13,9 @@
     color: var(--main-color) !important;
 }
 /* #endregion */
+.projectDialog_description {
+  white-space: pre-line;
+}
 
 /* #region Cards */
 .customCard {

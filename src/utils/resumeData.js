@@ -11,115 +11,110 @@ import {
   Pool,
   Computer,
   FitnessCenter,
-  Fireplace
+  Fireplace,
+  MobileOffOutlined,
+  MobileFriendlyTwoTone,
+  AndroidOutlined,
+  Web,
+  OpenInBrowserSharp
 } from "@material-ui/icons";
 
 // eslint-disable-next-line
 export default {
   interests: [
-    {
-      title: "PC tinkering",
-      icon: <Computer />,
-    },
-    {
-      title: "Swimming",
-      icon: <Pool />,
-    },
-    {
-      title: "Camping",
-      icon: <Fireplace />,
-    },
-    {
-      title: "Weightlifting",
-      icon: <FitnessCenter />,
-    },
+    { title: "PC tinkering", icon: Computer },
+    { title: "Swimming", icon: Pool },
+    { title: "Camping", icon: Fireplace },
+    { title: "Weightlifting", icon: FitnessCenter },
   ],
 
 
   name: "Gamgami Ahmed",
   title: "Full Stack Developer",
-  birthday: "25th June 1998",
   email: "gamgamiahmed@proton.me",
-  address: "Sousse, Tunisia",
-  phone: "+216 95 651 447",
+  address: "Tunis, Tunisia",
 
   socials: {
     Facebook: {
       link: "https://www.facebook.com/ahmedgamgami",
       text: "/ahmedgamgami",
-      icon: <Facebook />,
+      icon: Facebook,
     },
     LinkedIn: {
       link: "https://linkedin.com/in/gamgamiahmed",
       text: "/gamgami-ahmed",
-      icon: <LinkedIn />,
+      icon: LinkedIn,
     },
     GitHub: {
       link: "https://github.com/Telgou",
       text: "/Telgou",
-      icon: <GitHub />,
-    },
-    Telegram: {
-      link: "#",
+      icon: GitHub,
     },
   },
 
   about_me:
     "Hello Visitor 🙂 !" +
     "\n\n" +
-    "I am Gamgami Ahmed a passionate Tunisian Junior Software Engineer." +
+    "I am Gamgami Ahmed, a passionate Tunisian Junior Software Engineer." +
+    " I am experienced in Next.js and the Node.js ecosystem (Express, NestJS)." +
     "\n\n" +
-    "My passion with IT and Computers started since i was 6 years old when i first got my first computer and I started tinkering with it. At age 14, I Started working with sample HTML and CSS websites and gathering more technical skills through time in order to advance in my career. Now as my academic cursus I am doing software engineering and specialized in web developement. Add to that I am a solo learner for programming languages." +
+    "My passion with IT and Computers started since i was 6 years old when i first got my first computer and I started tinkering with it. At age 14, I Started working with simple HTML and CSS websites and gathering more technical skills through time. I have completed my National Engineering Diploma in Computer Science with Highest Honors." +
     "\n\n" +
-    "You are very welcome in my personal portfolio website. Please feel free to take a look at the apps and samples i worked on and also browse my git-hub profile. In order to contact me you are welcomed to fill in the contact form right below or just hit me up on one of my social media accounts.",
+    "You are very welcome in my personal portfolio website. Please feel free to take a look at the apps and samples i worked on and also browse my git-hub profile. In order to contact me you just hit me up on one of my social media accounts.",
 
   experiences: [
     {
-      title: "Summer Internship at eXo Platform",
+      title: "Smart Grid Meters Platform Development",
+      company: "Telnet Group",
+      location: "Tunis, Tunisia",
       description:
-        "• Development and maintenance of the Agenda portlet, including the implementation and optimization of features for efficient event and notification management within the eXo Platform environment",
-      date: "07/2024 - 09/2024",
+        "• Designed and developed an interactive platform with a geographic map visualizing the location of smart meters using their GPS coordinates and dynamic charts to monitor meter readings." +
+        "\n \n" +
+        "• Optimized API response times by implementing caching with Redis, reducing request latency from 220ms to under 130ms." +
+        "\n \n" +
+        "• Deployed and orchestrated the full application in Azure Container Apps.",
+      date: "2025",
     },
     {
-      title: "Personal Project ",
+      title: "Web Portlet Development",
+      company: " At eXo Platform",
+      location: "Tunis, Tunisia",
       description:
-        "• I realized an Internet anonymous forum project with a decoupled architecture utilizing object storage servicess (S3,R2,B2) for media storage, a Linux VPS for Backend PHP API endpoints and Vercel for Frontend Nextjs app. Additionally, I optimized performance by implementing Memcached for efficient caching, enhancing the responsiveness of the application. Moreover, Cloudflare services such as rate limiting and WAF rules were leveraged to mitigate potential abuse and ensure service availability. ",
-      date: "06/2023 - 07/2023",
+        "• Developed and maintained the Agenda portlet, including the implementation and optimization of features for efficient event and notification management within the eXo Platform environment." +
+        "\n \n" +
+        "• Modified Groovy templates for dynamic email notifications, using Groovy TemplateEngine to render customized content.",
+      date: "2024, Internship",
     },
   ],
 
   educations: [
     {
-      title: "2nd and 3rd year of Engineering",
+      title: "National Engineering Diploma in Computer Science (Highest Honors)",
+      institution: "Private Higher School of Engineering and Technology - Esprit",
+      location: "Tunis, Tunisia",
       description:
-        "• Successfully completed the second year of Engineering at ESPRIT.",
-      date: "09/2023 - present",
+        "• Completed National Engineering Diploma in Computer Science with Highest Honors.",
+      date: "2021 - 2025",
     },
     {
-      title: "Integrated Preparatory Cycle and 1st year of Software Engineering",
+      title: "Preparatory Cycle for Engineering Studies",
+      institution: "Preparatory Institute for Engineering Studies of Nabeul - IPEIN",
+      location: "Nabeul, Tunisia",
       description:
-        "• Successfully completed the second year of the integrated preparatory cycle and the first year of Software Engineering (core curriculum) at EPI",
-      date: "09/2021 - 06/2023",
-    },    
-    {
-      title: "Classic Preparatory Cycle",
-      description:
-        "• I accomplished the first year of classic preparatory school at Nabeul Preparatory Engineering Institute with success ",
-    //  date: "09/2020 - 06/2021",
+        "• Completed preparatory cycle for engineering studies.",
     },
-    /*{
-      title: "National High School Diploma",
-      description:
-        "• National High School Diploma Baccalauréat in Experimental Sciences from Kairouan Pioneer high school.",
-      date: "2020",
-    },*/
   ],
 
   services: [
     {
       title: "Web Development",
-      description: "I have been working on web developement for 1 year.",
-      icon: <WebOutlined />,
+      description: "I have been working as a web developer for more than 1 year.",
+      icon: Language,
+    },
+    {
+      title: "Mobile Development",
+      description: "I have been learning mobile development using Expo and React Native. I published my first play store app.",
+      icon: AndroidOutlined ,
     },
   ],
 
@@ -128,34 +123,30 @@ export default {
       title: "FRONT-END",
       description: [
         "JavaScript",
-        //"TypeScript",
-        "ReactJS",
-        "NextJS",
-        //"Angular",
-        //"Bootstrap",
-        //"SAAS",
-        //"TailWind",
+        "TypeScript",
+        "React",
+        "Next.js",
       ],
     },
     {
       title: "BACK-END",
-      description: ["NodeJS"/*, "Spring"*/, "Express"/*, "PHP"*/],
+      description: ["Node.js", "Express", "NestJS"],
     },
     {
       title: "DATABASES",
-      description: [/*"Oracle",*/ "MySQL", "MongoDB"],
-    },
-    {
-      title: "SOURCE CONTROL",
-      description: ["Git"/*, "GitHub"*/],
+      description: ["MongoDB", "MySQL"],
     },
     {
       title: "DevOps & Cloud",
-      description: ["Dockerization",/* "Microservices", "Jenkins", "Prometheus", "Grafana", "Node exporter", "Sonarqube", "Nexus"*/],
+      description: ["Docker", "Git"],
     },
     {
-      title: "OPERATING SYSTEMS",
-      description: [/*"Linux",*/ "Windows"],
+      title: "COLLABORATION TOOLS",
+      description: ["Jira", "Miro"],
+    },
+    {
+      title: "DEVELOPMENT TOOLS",
+      description: ["VS Code", "Postman"],
     },
   ],
 
@@ -191,7 +182,7 @@ export default {
 
     //#region Project Portfolio App
     {
-      tag: "React JS",
+      tag: "React",
       image:
         "https://i.imgur.com/PvHR887.png",
       title: "Portfolio",
@@ -201,11 +192,11 @@ export default {
       links: [
         {
           link: "https://github.com/Telgou/ahmed-portfolio-master",
-          icon: <GitHub />,
+          icon: GitHub ,
         },
         {
           link: "https://ahmed-portfolio-master.vercel.app/",
-          icon: <Language />,
+          icon: Language,
         },
       ],
     },
@@ -213,22 +204,22 @@ export default {
     //#endregion
 
     //#region Nextjs Projects
-    //#region HCHAN
+    //#region Forum Development
     {
-      tag: "Next js",
+      tag: "NextJS",
       image: "https://i.imgur.com/sGhhGn9.png",
-      title: "Anonymous Forum",
-      caption: "Anonymous Forum",
+      title: "Forum Development",
+      caption: "Forum Development",
       description:
-        "I realized an Internet anonymous forum project with a decoupled architecture utilizing object storage servicess (S3,R2,B2) for media storage, a Linux VPS for Backend PHP API endpoints and Vercel for Frontend Nextjs app. Additionally, I optimized performance by implementing Memcached for efficient caching, enhancing the responsiveness of the application. Moreover, Cloudflare services such as rate limiting and WAF rules were leveraged to mitigate potential abuse and ensure service availability.",
+        "Designed a forum with a decoupled architecture using object storage services (Cloudflare R2) for media storage, a Linux VPS for the Backend API, and Vercel for the Frontend application. Reduced API response time by 30% by implementing Memcached for JSON response caching. Achieved a Google Lighthouse score of 90 in performance and accessibility. Implemented security measures through Cloudflare: rate limiting and Web Application Firewall (WAF) rules to mitigate potential abuse and ensure availability.",
       links: [
         {
           link: "",
-          icon: <GitHub />,
+          icon: GitHub ,
         },
         {
           link: "",
-          icon: <Language />,
+          icon: Language,
         },
       ],
     },
@@ -236,7 +227,7 @@ export default {
 
     //#region Application de gestion des patients de la clinique
     {
-      tag: "Next js",
+      tag: "NextJS",
       image: "https://i.imgur.com/qppM9Kk.png",
       title: "Clinic patients management App",
       caption: "patients management App",
@@ -244,11 +235,51 @@ export default {
       links: [
         {
           link: "https://github.com/Telgou/clinic-app",
-          icon: <GitHub />,
+          icon: GitHub ,
         },
         {
           link: "",
-          icon: <Language />,
+          icon: Language,
+        },
+      ],
+    },
+    //#endregion
+
+    //#region Dashboard Project
+    {
+      tag: "NextJS NestJS",
+      image: "smartgridmeterdashboard.JPG",
+      title: "Smart Grid Meters Platform Development",
+      caption: "Smart Grid Dashboard",
+      description:
+        "• Designed and developed an interactive platform with a geographic map visualizing smart meter locations using GPS.\n" +
+        "• Built dynamic real-time charts for monitoring meter readings.\n" +
+        "• Implemented Redis caching, reducing API latency from 220ms to under 130ms.\n" +
+        "• Deployed and orchestrated the full application in Azure Container Apps.",
+      links: [
+        { link: "", icon: null },
+        { link: "", icon: null },
+      ],
+    },
+    //#endregion
+
+    //#region React Native Projects
+    //#region Tawssila
+    {
+      tag: "React Native(Expo)",
+      image: "tawssila.JPG",
+      title: "Carpooling Mobile Application: Tawssila",
+      caption: "Tawssila",
+      description:
+        "Designed and developed a carpooling mobile application using Expo and React Native, providing a platform for 650+ users to offer and join rides. Used Firebase Firestore to store ride proposals, with security rules and authentication to protect data access. Implemented cloud functions to listen for new ride postings and automatically notify subscribed users via FCM. Built a real-time messaging system between drivers and passengers using Firebase Realtime Database.",
+      links: [
+        {
+          link: "https://play.google.com/store/apps/details?id=com.telgou.Tawssila",
+          icon: AndroidOutlined ,
+        },
+        {
+          link: "https://tawssila.vercel.app/",
+          icon: Language,
         },
       ],
     },
@@ -269,11 +300,11 @@ export default {
       links: [
         {
           link: "https://github.com/Telgou/Frontend--PI-Project-2024-Cipher",
-          icon: <GitHub />,
+          icon: GitHub ,
         },
         {
           link: "https://frontend-pi-project-2024-cipher.vercel.app/",
-          icon: <Language />,
+          icon: Language,
         },
       ],
     },
@@ -295,11 +326,11 @@ export default {
       links: [
         {
           link: "https://github.com/Telgou/GestionFoyer-Frontend-main",
-          icon: <GitHub />,
+          icon: GitHub ,
         },
         {
           link: "https://gestion-foyer-frontend-main.vercel.app/sign-in",
-          icon: <Language />,
+          icon: Language,
         },
       ],
     },
@@ -320,11 +351,11 @@ export default {
       links: [
         {
           link: "https://github.com/Telgou/devops-dormproject",
-          icon: <GitHub />,
+          icon: GitHub ,
         },
         {
           link: "",
-          icon: <Language />,
+          icon: Language,
         },
       ],
     },
@@ -345,11 +376,11 @@ export default {
       links: [
         {
           link: "https://github.com/Telgou/MicroServices",
-          icon: <GitHub />,
+          icon: GitHub ,
         },
         {
           link: "",
-          icon: <Language />,
+          icon: Language,
         },
       ],
     },

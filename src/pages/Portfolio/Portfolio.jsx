@@ -18,8 +18,8 @@ import resumeData from "../../utils/resumeData";
 import resumeDataFR from "../../utils/resumeData FR";
 import "./Portfolio.css";
 
-function Portfolio({language}) {
-  const resumeDataTranslated = language === "en" ? resumeData : resumeDataFR ;
+function Portfolio({ language }) {
+  const resumeDataTranslated = language === "en" ? resumeData : resumeDataFR;
   const [tabValue, setTabValue] = useState("All");
   const [projectDialog, setProjectDialog] = useState(false);
 
@@ -131,7 +131,7 @@ function Portfolio({language}) {
               rel="noreferrer"
               className={"projectDialog_icon"}
             >
-              {link.icon}
+              {React.isValidElement(link.icon) ? link.icon : null} {/* ✅ render only valid React elements */}
             </a>
           ))}
         </DialogActions>

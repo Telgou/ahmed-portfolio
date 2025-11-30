@@ -7,7 +7,7 @@ import Footer from "./components/Footer/Footer";
 import Profile from "./components/Profile/Profile";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import Resume from "./pages/Resume/Resume";
-import ScrollToTop from "../src/components/ScrollToTop/ScrollToTop";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import "./App.css";
 
 function App() {
@@ -19,14 +19,15 @@ function App() {
         <Grid item xs={12} sm={12} md={4} lg={3}>
           <Profile language={language} />
         </Grid>
-        <Grid xs>
+
+        <Grid item xs>
           <Router>
             <ScrollToTop>
               <Header setLanguage={setLanguage} language={language} />
               <div className={"main_content container_shadow"}>
                 <Switch>
                   <Route path="/portfolio">
-                    <Portfolio  language={language} />
+                    <Portfolio language={language} />
                   </Route>
                   <Route path="/">
                     <Resume language={language} />
@@ -39,6 +40,7 @@ function App() {
           <Footer language={language} />
         </Grid>
       </Grid>
+
     </Container>
   );
 }

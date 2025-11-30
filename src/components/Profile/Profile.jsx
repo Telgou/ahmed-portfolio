@@ -13,7 +13,7 @@ import resumeData from "../../utils/resumeData";
 import resumeDataFR from "../../utils/resumeData FR";
 import "./Profile.css";
 
-const CustomTimelineItem = ({ title, text, link,language }) => (
+const CustomTimelineItem = ({ title, text, link, language }) => (
   <TimelineItem>
     <CustomTimelineSeperator />
     <TimelineContent>
@@ -34,8 +34,8 @@ const CustomTimelineItem = ({ title, text, link,language }) => (
   </TimelineItem>
 );
 
-function Profile({language}) {
-  const resumeDataTranslated = language === "en" ? resumeData : resumeDataFR ;
+function Profile({ language }) {
+  const resumeDataTranslated = language === "en" ? resumeData : resumeDataFR;
   return (
     <div className="profile container_shadow fixed">
       <div className="profile_name">
@@ -49,17 +49,17 @@ function Profile({language}) {
 
       <div className="profile_information">
         <CustomTimeline icon={<PersonOutlineIcon />}>
-          <CustomTimelineItem title={language =="en" ?"Birthday" : "Date de Naissance"} text={resumeDataTranslated.birthday} />
+          {/*<CustomTimelineItem title={language == "en" ? "Birthday" : "Date de Naissance"} text={resumeDataTranslated.birthday} />*/}
           <a href={`mailto:${resumeDataTranslated.email}?subject="Working Purposes"}`}>
             <CustomTimelineItem title="Email" text={resumeDataTranslated.email} />
           </a>
 
-          <CustomTimelineItem title={language =="en" ?"Address":"Adresse"} text={resumeDataTranslated.address} />
-          <CustomTimelineItem title={language =="en" ?"Phone":"Tél"} text={resumeDataTranslated.phone} />
+          <CustomTimelineItem title={language == "en" ? "Address" : "Adresse"} text={resumeDataTranslated.address} />
+          {/*<CustomTimelineItem title={language == "en" ? "Phone" : "Tél"} text={resumeDataTranslated.phone} />*/}
         </CustomTimeline>
         <div className={"button_container"}>
-          <a href={language =="en" ? "https://drive.google.com/uc?export=download&id=19-8o_58G3gjFqfK4uB46NY-9aB5deHJu" : "https://drive.google.com/uc?export=download&id=16tiF6T_xr2BtLPEQWU04r2UtM7EPIS6O"} download={true}>
-            <CustomButton text={language =="en" ? "Download CV" : "Télécharger CV"} icon={<GetAppIcon />} />
+          <a href={language == "en" ? "https://drive.google.com/uc?export=download&id=19-8o_58G3gjFqfK4uB46NY-9aB5deHJu" : "https://drive.google.com/uc?export=download&id=16tiF6T_xr2BtLPEQWU04r2UtM7EPIS6O"} download={true}>
+            <CustomButton text={language == "en" ? "Download CV" : "Télécharger CV"} icon={<GetAppIcon />} />
           </a>
         </div>
       </div>
