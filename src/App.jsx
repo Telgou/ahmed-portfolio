@@ -20,7 +20,7 @@ function App() {
           <Profile language={language} />
         </Grid>
 
-        <Grid item xs>
+        <Grid xs>
           <Router>
             <ScrollToTop>
               <Header setLanguage={setLanguage} language={language} />

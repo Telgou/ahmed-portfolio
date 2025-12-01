@@ -72,7 +72,7 @@ export default {
     "Je suis Gamgami Ahmed, un Ingénieur Logiciel Junior Tunisien passionné." +
     " Je suis expérimenté en Next.js et l'écosystème Node.js (Express, NestJS)." +
     "\n\n" +
-    "Ma passion pour l'informatique et les ordinateurs a commencé depuis que j'avais 6 ans lorsque j'ai eu mon premier ordinateur et j'ai commencé à bricoler avec. À l'âge de 14 ans, j'ai commencé à travailler avec des sites Web simples en HTML et CSS et j'ai acquis plus de compétences techniques au fil du temps. J'ai terminé mon Diplôme National d'Ingénieur en Informatique avec Mention Très Bien." +
+    "Ma passion pour l'informatique et les ordinateurs a commencé depuis que j'avais 6 ans lorsque j'ai eu mon premier ordinateur et j'ai commencé à bricoler avec. À l'âge de 14 ans, j'ai commencé à travailler avec des sites Web simples en HTML et CSS et j'ai acquis plus de compétences techniques au fil du temps. J'ai terminé mon Diplôme National d'Ingénieur en Informatique avec Mention Excellent." +
     "\n\n" +
     "Vous êtes les bienvenus sur mon site portfolio personnel. N'hésitez pas à jeter un œil aux applications et échantillons sur lesquels j'ai travaillé, ainsi qu'à parcourir mon profil GitHub. Pour me contacter, vous pouvez simplement me contacter sur l'un de mes comptes de médias sociaux.",
 
@@ -80,6 +80,7 @@ export default {
     {
       title: "Développement de Plateforme de Compteurs Smart Grid",
       company: "Telnet Group",
+      link: "https://groupe-telnet.com/en/",
       location: "Tunis, Tunisie",
       description:
         "• Conception et développement d'une plateforme interactive avec une carte géographique visualisant l'emplacement des compteurs intelligents en utilisant leurs coordonnées GPS et des graphiques dynamiques pour surveiller les lectures des compteurs." +
@@ -87,12 +88,13 @@ export default {
         "• Optimisation des temps de réponse de l'API en implémentant la mise en cache avec Redis, réduisant la latence des requêtes de 220ms à moins de 130ms." +
         "\n \n" +
         "• Déploiement et orchestration de l'application complète dans Azure Container Apps.",
-      date: "2025",
+      date: "2025, ",
     },
     {
       title: "Développement de Portlet Web",
       company: " chez eXo Platform",
       location: "Tunis, Tunisie",
+      link: "https://www.exoplatform.com/",
       description:
         "• Développement et maintenance du portlet Agenda, incluant l'implémentation et l'optimisation de fonctionnalités pour une gestion efficace des événements et des notifications dans l'environnement eXo Platform." +
         "\n \n" +
@@ -103,7 +105,7 @@ export default {
 
   educations: [
     {
-      title: "Diplôme National d'Ingénieur en Informatique (Mention Très Bien)",
+      title: "Diplôme National d'Ingénieur en Informatique (Mention Excellent)",
       institution: "École Supérieure Privée d'Ingénierie et de Technologie - Esprit",
       location: "Tunis, Tunisie",
       description:
@@ -128,7 +130,7 @@ export default {
     {
       title: "Développement Mobile",
       description: "J'apprends le développement mobile en utilisant Expo et React Native. J'ai publié ma première application sur le Play Store.",
-      icon: AndroidOutlined ,
+      icon: AndroidOutlined,
     },
   ],
 
@@ -294,7 +296,7 @@ export default {
       links: [
         {
           link: "https://play.google.com/store/apps/details?id=com.telgou.Tawssila",
-          icon: AndroidOutlined ,
+          icon: AndroidOutlined,
         },
         {
           link: "https://tawssila.vercel.app/",

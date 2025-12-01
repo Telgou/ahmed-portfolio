@@ -66,6 +66,7 @@ export default {
     {
       title: "Smart Grid Meters Platform Development",
       company: "Telnet Group",
+      link:"https://groupe-telnet.com/en/",
       location: "Tunis, Tunisia",
       description:
         "• Designed and developed an interactive platform with a geographic map visualizing the location of smart meters using their GPS coordinates and dynamic charts to monitor meter readings." +
@@ -73,12 +74,13 @@ export default {
         "• Optimized API response times by implementing caching with Redis, reducing request latency from 220ms to under 130ms." +
         "\n \n" +
         "• Deployed and orchestrated the full application in Azure Container Apps.",
-      date: "2025",
+      date: "2025, ",
     },
     {
       title: "Web Portlet Development",
       company: " At eXo Platform",
       location: "Tunis, Tunisia",
+      link: "https://www.exoplatform.com/",
       description:
         "• Developed and maintained the Agenda portlet, including the implementation and optimization of features for efficient event and notification management within the eXo Platform environment." +
         "\n \n" +

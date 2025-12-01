@@ -37,10 +37,7 @@ export default {
       link: "https://github.com/Telgou",
       text: "/Telgou",
       icon: GitHub,
-    },
-    Telegram: {
-      link: "#",
-    },
+    }
   },
 
 

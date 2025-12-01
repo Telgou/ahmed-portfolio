@@ -51,9 +51,9 @@ function Resume({ language }) {
                       </Typography>
                       <Typography variant={"caption"} className="timeline_date">
                         {experience.date}
-                        <span className="cursor-pointer " onClick={() => window.open("https://www.exoplatform.com/")}>
+                        <a style={{ cursor: "pointer" }} className="text-blue-500" onClick={() => window.open(experience.link)}>
                           {experience.company}
-                        </span>
+                        </a>
                       </Typography>
                       <Typography
                         variant={"body2"}
@@ -102,9 +102,9 @@ function Resume({ language }) {
           <h6 className={"section_title_text"}>{language === "en" ? "My Services" : "Mes Services"}</h6>
         </Grid>
         <Grid item xs={12}>
-          <Grid container spacing={1} className="justify-around">
+          <Grid container spacing={1} className="justify-content-center">
             {resumeDataTranslated.services.map((service, index) => (
-              <Grid item xs={12} sm={6} md={3} key={`${service.title}-${index}`}>
+              <Grid item xs={12} sm={6} md={3} key={`${service.title}-${index}`} className="mx-4">
                 <Paper elevation={5} className={"skill"}>
                   <div className="service">
                     <service.icon className="service_icon" />
@@ -133,14 +133,17 @@ function Resume({ language }) {
             <span></span>
             <h6 className={"section_title_text"}>{language === "en" ? "My Skills" : "Mes Compténces"}</h6>
           </Grid>
-          <Grid container spacing={3} className="justify-between">
+          <Grid container spacing={3} className="justify-content-center">
             {resumeDataTranslated.skills.map((skill, index) => (
               <Grid item xs={12} sm={6} md={3}
                 key={`${skill.title}-desc-${index}`}>
                 <Paper elevation={0} className={"skill"}>
-                  <Typography varian={"h6"} className={"skill_title"}>
+
+                  <Typography
+                    className={"skill_title"}>
                     {skill.title}
                   </Typography>
+
                   {skill.description.map((element, index) => (
                     <Typography
                       variant={"body2"}
