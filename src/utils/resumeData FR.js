@@ -233,31 +233,12 @@ export default {
           icon: GitHub,
         },
         {
-          link: "",
+          link: "https://www.hchan.org/",
           icon: Language,
         },
       ],
     },
     //#endregion
-
-    //#region Application de gestion des patients de la clinique
-    {
-      tag: "NextJS",
-      image: "https://i.imgur.com/qppM9Kk.png",
-      title: "Application de gestion des patients de la clinique",
-      caption: "Application de gestion des patients",
-      description: "",
-      links: [
-        {
-          link: "https://github.com/Telgou/clinic-app",
-          icon: GitHub,
-        },
-        {
-          link: "",
-          icon: Language,
-        },
-      ],
-    },
     //#endregion
 
     //#region Dashboard Project
@@ -375,7 +356,7 @@ export default {
         },
         {
           link: "",
-          icon: Language,
+          icon: null,
         },
       ],
     },
@@ -400,12 +381,30 @@ export default {
         },
         {
           link: "",
-          icon: Language,
+          icon: null,
         },
       ],
     },
     //#endregion
     //#endregion
 
+    //#region Application de gestion des patients de la clinique
+    {
+      tag: "NextJS",
+      image: "https://i.imgur.com/qppM9Kk.png",
+      title: "Projet académique de gestion des patients de la clinique",
+      caption: "Projet académique de gestion des patients",
+      description: "",
+      links: [
+        {
+          link: "https://github.com/Telgou/clinic-app",
+          icon: GitHub,
+        },
+        {
+          link: "",
+          icon: null,
+        },
+      ],
+    },
   ],
 };

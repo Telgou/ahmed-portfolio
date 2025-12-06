@@ -66,7 +66,7 @@ export default {
     {
       title: "Smart Grid Meters Platform Development",
       company: "Telnet Group",
-      link:"https://groupe-telnet.com/en/",
+      link: "https://groupe-telnet.com/en/",
       location: "Tunis, Tunisia",
       description:
         "• Designed and developed an interactive platform with a geographic map visualizing the location of smart meters using their GPS coordinates and dynamic charts to monitor meter readings." +
@@ -116,7 +116,7 @@ export default {
     {
       title: "Mobile Development",
       description: "I have been learning mobile development using Expo and React Native. I published my first play store app.",
-      icon: AndroidOutlined ,
+      icon: AndroidOutlined,
     },
   ],
 
@@ -194,7 +194,7 @@ export default {
       links: [
         {
           link: "https://github.com/Telgou/ahmed-portfolio-master",
-          icon: GitHub ,
+          icon: GitHub,
         },
         {
           link: "https://ahmed-portfolio-master.vercel.app/",
@@ -217,30 +217,10 @@ export default {
       links: [
         {
           link: "",
-          icon: GitHub ,
+          icon: GitHub,
         },
         {
-          link: "",
-          icon: Language,
-        },
-      ],
-    },
-    //#endregion
-
-    //#region Application de gestion des patients de la clinique
-    {
-      tag: "NextJS",
-      image: "https://i.imgur.com/qppM9Kk.png",
-      title: "Clinic patients management App",
-      caption: "patients management App",
-      description: "",
-      links: [
-        {
-          link: "https://github.com/Telgou/clinic-app",
-          icon: GitHub ,
-        },
-        {
-          link: "",
+          link: "https://www.hchan.org/",
           icon: Language,
         },
       ],
@@ -277,7 +257,7 @@ export default {
       links: [
         {
           link: "https://play.google.com/store/apps/details?id=com.telgou.Tawssila",
-          icon: AndroidOutlined ,
+          icon: AndroidOutlined,
         },
         {
           link: "https://tawssila.vercel.app/",
@@ -302,7 +282,7 @@ export default {
       links: [
         {
           link: "https://github.com/Telgou/Frontend--PI-Project-2024-Cipher",
-          icon: GitHub ,
+          icon: GitHub,
         },
         {
           link: "https://frontend-pi-project-2024-cipher.vercel.app/",
@@ -328,7 +308,7 @@ export default {
       links: [
         {
           link: "https://github.com/Telgou/GestionFoyer-Frontend-main",
-          icon: GitHub ,
+          icon: GitHub,
         },
         {
           link: "https://gestion-foyer-frontend-main.vercel.app/sign-in",
@@ -353,11 +333,11 @@ export default {
       links: [
         {
           link: "https://github.com/Telgou/devops-dormproject",
-          icon: GitHub ,
+          icon: GitHub,
         },
         {
           link: "",
-          icon: Language,
+          icon: null,
         },
       ],
     },
@@ -378,16 +358,35 @@ export default {
       links: [
         {
           link: "https://github.com/Telgou/MicroServices",
-          icon: GitHub ,
+          icon: GitHub,
         },
         {
           link: "",
-          icon: Language,
+          icon: null,
         },
       ],
     },
     //#endregion
     //#endregion
 
+    //#region Application de gestion des patients de la clinique
+    {
+      tag: "NextJS",
+      image: "https://i.imgur.com/qppM9Kk.png",
+      title: "Academic project : Clinic patients management App",
+      caption: "Academic project : patients management App",
+      description: "",
+      links: [
+        {
+          link: "https://github.com/Telgou/clinic-app",
+          icon: GitHub,
+        },
+        {
+          link: "",
+          icon: null,
+        },
+      ],
+    },
+    //#endregion
   ],
 };
