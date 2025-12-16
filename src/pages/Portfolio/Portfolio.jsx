@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   Grid,
   Tabs,
@@ -22,7 +22,16 @@ import "./Portfolio.css";
 
 function Portfolio({ language }) {
   const resumeDataTranslated = language === "en" ? resumeData : resumeDataFR;
-
+  const [country, setCountry] = useState("TN");
+  useEffect(() => {
+    fetch('https://ipwho.is/')
+      .then(res => res.json())
+      .then(data => {
+        if (data.success) {
+          setCountry(data.country_code); // "TN"
+        }
+      });
+  }, []); 
   const [tabValue, setTabValue] = useState("All");
 
   // ← two states instead of one
@@ -72,27 +81,38 @@ function Portfolio({ language }) {
       {/* Projects Grid */}
       <Grid item xs={12}>
         <Grid container spacing={3}>
-          {resumeDataTranslated.projects.map((project) => (
-            (tabValue === "All" || tabValue === project.tag) && (
-              <Grid item xs={12} sm={6} md={4} key={project.title}>
-                <Grow in timeout={1000}>
-                  <Card className="customCard" onClick={() => openProjectDialog(project)}>
-                    <CardActionArea>
-                      <CardMedia className="customCard_image" image={project.image} title={project.title} />
-                      <CardContent>
-                        <Typography variant="body2" className="customCard_title">
-                          {project.title}
-                        </Typography>
-                        <Typography variant="caption" className="customCard_caption">
-                          {project.caption}
-                        </Typography>
-                      </CardContent>
-                    </CardActionArea>
-                  </Card>
-                </Grow>
-              </Grid>
-            )
-          ))}
+          {resumeDataTranslated.projects
+            .filter(project => {
+              // Don't show Tawssila project for Tunisia
+              if (country === 'TN' && project.caption === 'Tawssila') return false;
+              return true;
+            })
+            .map((project) => (
+              (tabValue === "All" || tabValue === project.tag) && (
+                <Grid item xs={12} sm={6} md={4} key={project.title}>
+                  <Grow in timeout={1000}>
+                    <Card className="customCard" onClick={() => openProjectDialog(project)}>
+                      <CardActionArea>
+                        <CardMedia
+                          className="customCard_image"
+                          image={project.image}
+                          title={project.title}
+                        />
+                        <CardContent>
+                          <Typography variant="body2" className="customCard_title">
+                            {project.title}
+                          </Typography>
+                          <Typography variant="caption" className="customCard_caption">
+                            {project.caption}
+                          </Typography>
+                        </CardContent>
+                      </CardActionArea>
+                    </Card>
+                  </Grow>
+                </Grid>
+              )
+            ))}
+
         </Grid>
       </Grid>
 

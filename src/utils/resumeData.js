@@ -58,9 +58,11 @@ export default {
     "I am Gamgami Ahmed, a passionate Tunisian Junior Software Engineer." +
     " I am experienced in Next.js and the Node.js ecosystem (Express, NestJS)." +
     "\n\n" +
-    "My passion with IT and Computers started since i was 6 years old when i first got my first computer and I started tinkering with it. At age 14, I Started working with simple HTML and CSS websites and gathering more technical skills through time. I have completed my National Engineering Diploma in Computer Science with Highest Honors." +
+    "My passion with IT and Computers started since i was 6 years old when i first got my first computer and I started tinkering with it." +
+    " I'm not a simple coder, I would therefore describe myself as a \"Computer Native\" 🙂 Computers have been my main passion." +
+    "\n At age 14, I Started working with simple HTML and CSS websites and gathering more technical skills through time. I have now completed my National Engineering Diploma in Computer Science with Highest Honors." +
     "\n\n" +
-    "You are very welcome in my personal portfolio website. Please feel free to take a look at the apps and samples i worked on and also browse my git-hub profile. In order to contact me you just hit me up on one of my social media accounts.",
+    "You are very welcome in my personal portfolio website. Please feel free to take a look at the apps i worked on or browse my GitHub profile. In order to contact me you just hit me up on one of my social media accounts.",
 
   experiences: [
     {

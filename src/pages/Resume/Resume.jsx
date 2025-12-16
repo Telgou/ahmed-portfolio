@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Grid, Typography, Icon, Paper } from "@material-ui/core";
 //import { TextField } from "@material-ui/core";
 import CustomTimeline, {
@@ -15,6 +15,16 @@ import TimelineDot from "@material-ui/lab/TimelineDot";
 
 function Resume({ language }) {
   const resumeDataTranslated = language === "en" ? resumeData : resumeDataFR;
+  const [country, setCountry] = useState("TN");
+  useEffect(() => {
+    fetch('https://ipwho.is/')
+      .then(res => res.json())
+      .then(data => {
+        if (data.success) {
+          setCountry(data.country_code); // "TN"
+        }
+      });
+  }, []);
   return (
     <>
       {/* About me */}
@@ -103,25 +113,32 @@ function Resume({ language }) {
         </Grid>
         <Grid item xs={12}>
           <Grid container spacing={1} className="justify-content-center">
-            {resumeDataTranslated.services.map((service, index) => (
-              <Grid item xs={12} sm={6} md={3} key={`${service.title}-${index}`} className="mx-4">
-                <Paper elevation={5} className={"skill"}>
-                  <div className="service">
-                    <service.icon className="service_icon" />
+            {resumeDataTranslated.services
+              .filter(service => {
+                // Don't show mobile development for Tunisia
+                const isMobileDev = service.title === 'Développement Mobile' || service.title === 'Mobile Development';
+                if (country === 'TN' && isMobileDev) return false;
+                return true;
+              })
+              .map((service, index) => (
+                <Grid item xs={12} sm={6} md={3} key={`${service.title}-${index}`} className="mx-4">
+                  <Paper elevation={5} className={"skill"}>
+                    <div className="service">
+                      <service.icon className="service_icon" />
 
-                    <Typography varian={"h6"} className={"service_title"}>
-                      {service.title}
-                    </Typography>
-                    <Typography
-                      variant={"body2"}
-                      className={"service_description"}
-                    >
-                      {service.description}
-                    </Typography>
-                  </div>
-                </Paper>
-              </Grid>
-            ))}
+                      <Typography variant="h6" className={"service_title"}>
+                        {service.title}
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        className={"service_description"}
+                      >
+                        {service.description}
+                      </Typography>
+                    </div>
+                  </Paper>
+                </Grid>
+              ))}
           </Grid>
         </Grid>
       </Grid>
