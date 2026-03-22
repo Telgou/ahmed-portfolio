@@ -14,6 +14,8 @@ import {
   DialogContent,
   DialogActions,
   IconButton,
+  Tooltip,
+  Button,
 } from "@material-ui/core";
 import CloseIcon from "@material-ui/icons/Close"; // This one exists in v4
 import resumeData from "../../utils/resumeData";
@@ -31,7 +33,7 @@ function Portfolio({ language }) {
           setCountry(data.country_code); // "TN"
         }
       });
-  }, []); 
+  }, []);
   const [tabValue, setTabValue] = useState("All");
 
   // ← two states instead of one
@@ -128,7 +130,7 @@ function Portfolio({ language }) {
           <>
             <DialogTitle>
               {selectedProject.title}
-              <IconButton aria-label="close" onClick={closeProjectDialog} style={{ position: "absolute", right: 8, top: 8 }}>
+              <IconButton aria-label="close" onClick={closeProjectDialog} style={{ position: "absolute", right: 8, top: 8, color: "#333" }}>
                 <CloseIcon />
               </IconButton>
             </DialogTitle>
@@ -142,14 +144,22 @@ function Portfolio({ language }) {
             </DialogContent>
 
             <DialogActions className="projectDialog_actions">
-              {selectedProject?.links?.map((link, i) => {
-                console.log(link);
-                return (
-                  <a key={i} href={link.link} target="_blank" rel="noreferrer" className="projectDialog_icon">
-                    {link.icon && <link.icon fontSize="large" />}
-                  </a>
-                )
-              })}
+              {selectedProject?.links
+                ?.filter((link) => link.link && link.link !== "" && typeof link.icon !== 'string')
+                .map((link, i) => (
+                  <Button
+                    key={i}
+                    variant="outlined"
+                    component="a"
+                    href={link.link}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="projectDialog_button"
+                    startIcon={link.icon && <link.icon />}
+                  >
+                    {link.text || "View"}
+                  </Button>
+                ))}
             </DialogActions>
           </>
         )}

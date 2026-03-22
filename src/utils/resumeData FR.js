@@ -208,10 +208,12 @@ export default {
         {
           link: "https://github.com/Telgou/ahmed-portfolio-master",
           icon: GitHub,
+          text: "GitHub",
         },
         {
           link: "https://ahmed-portfolio-master.vercel.app/",
           icon: Language,
+          text: "Démo en direct",
         },
       ],
     },
@@ -219,6 +221,28 @@ export default {
     //#endregion
 
     //#region Nextjs Projects
+    //#region FPS per Dollar
+    {
+      tag: "NextJS",
+      image: "https://i.imgur.com/XygMeTD.jpeg",
+      title: "Calculateur FPS par Dollar",
+      caption: "FPS per Dollar",
+      description:
+        "Développement d'une application web pour comparer les GPU et CPU en fonction de leur valeur FPS. Optimisation de l'expérience utilisateur avec le rendu statique et mise en œuvre de techniques d'optimisation pour les moteurs de recherche (SEO). Conçu avec Supabase, Next.js et Zustand pour la gestion d'état.",
+      links: [
+        {
+          link: null,
+          icon: GitHub,
+          text: "GitHub",
+        },
+        {
+          link: "https://www.fpsperdollar.org",
+          icon: Language,
+          text: "Démo en direct",
+        },
+      ],
+    },
+    //#endregion
     //#region Forum Development
     {
       tag: "NextJS",
@@ -231,10 +255,12 @@ export default {
         {
           link: "",
           icon: GitHub,
+          text: "GitHub",
         },
         {
           link: "https://www.hchan.org/",
           icon: Language,
+          text: "Démo en direct",
         },
       ],
     },
@@ -256,10 +282,12 @@ export default {
         {
           link: "",
           icon: null,
+          text: "GitHub",
         },
         {
           link: "",
           icon: null,
+          text: "Démo en direct",
         },
       ],
     },
@@ -278,10 +306,12 @@ export default {
         {
           link: "https://play.google.com/store/apps/details?id=com.telgou.Tawssila",
           icon: AndroidOutlined,
+          text: "Play Store",
         },
         {
           link: "https://tawssila.vercel.app/",
           icon: Language,
+          text: "Démo en direct",
         },
       ],
     },
@@ -303,10 +333,12 @@ export default {
         {
           link: "https://github.com/Telgou/Frontend--PI-Project-2024-Cipher",
           icon: GitHub,
+          text: "GitHub",
         },
         {
           link: "https://frontend-pi-project-2024-cipher.vercel.app/",
           icon: Language,
+          text: "Démo en direct",
         },
       ],
     },
@@ -328,10 +360,12 @@ export default {
         {
           link: "https://github.com/Telgou/GestionFoyer-Frontend-main",
           icon: GitHub,
+          text: "GitHub",
         },
         {
           link: "https://gestion-foyer-frontend-main.vercel.app/sign-in",
           icon: Language,
+          text: "Démo en direct",
         },
       ],
     },
@@ -353,10 +387,12 @@ export default {
         {
           link: "https://github.com/Telgou/devops-dormproject",
           icon: GitHub,
+          text: "GitHub",
         },
         {
           link: "",
           icon: null,
+          text: "Démo en direct",
         },
       ],
     },
@@ -378,10 +414,12 @@ export default {
         {
           link: "https://github.com/Telgou/MicroServices",
           icon: GitHub,
+          text: "GitHub",
         },
         {
           link: "",
           icon: null,
+          text: "Démo en direct",
         },
       ],
     },
@@ -399,10 +437,12 @@ export default {
         {
           link: "https://github.com/Telgou/clinic-app",
           icon: GitHub,
+          text: "GitHub",
         },
         {
           link: "",
           icon: null,
+          text: "Démo en direct",
         },
       ],
     },

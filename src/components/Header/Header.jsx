@@ -9,8 +9,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "/node_modules/flag-icons/css/flag-icons.min.css";
 import "./Header.css";
 
-function Header({ props, setLanguage, language }) {
-  const pathName = props?.location?.pathname;
+function Header({ location, setLanguage, language }) {
+  const pathName = location?.pathname;
   const resumeDataTranslated = language === "en" ? resumeData : resumeDataFR;
   return (
     <Navbar expand={"lg"} sticky={"top"} className={"header"}>
@@ -27,8 +27,10 @@ function Header({ props, setLanguage, language }) {
           {/* Resume Link */}
           <Nav.Link
             as={NavLink}
-            to={"/"}
-            className={pathName === "/" ? "header_link_active" : "header_link"}
+            exact
+            to="/"
+            className="header_link"
+            activeClassName="header_link_active"
           >
             Resume
           </Nav.Link>
@@ -36,10 +38,9 @@ function Header({ props, setLanguage, language }) {
           {/* Portfolio Link */}
           <Nav.Link
             as={NavLink}
-            to={"/portfolio"}
-            className={
-              pathName === "/portfolio" ? "header_link_active" : "header_link"
-            }
+            to="/portfolio"
+            className="header_link"
+            activeClassName="header_link_active"
           >
             Portfolio
           </Nav.Link>

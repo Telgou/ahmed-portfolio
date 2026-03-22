@@ -22,7 +22,7 @@
 }
 
 .timeline .timeline_dot_header {
-    color: black !important ;
+    color: black !important;
     background-color: var(--main-color) !important;
     font-size: small !important;
     padding: 10px !important;
@@ -39,9 +39,9 @@
     background-color: #eee !important;
 }
 
-.timeline .timeline_dot_header > .MuiSvgIcon-root {
-    font-size: 20px;
-    color: darkslategray;
+.timeline .timeline_dot_header>.MuiSvgIcon-root {
+    font-size: 26px !important;
+    color: #333 !important;
 }
 
 .timeline .seperator_padding {
