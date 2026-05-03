@@ -17,13 +17,14 @@ function Resume({ language }) {
   const resumeDataTranslated = language === "en" ? resumeData : resumeDataFR;
   const [country, setCountry] = useState("TN");
   useEffect(() => {
-    fetch('https://ipwho.is/')
+    fetch('https://get.geojs.io/v1/ip/geo.json')
       .then(res => res.json())
       .then(data => {
-        if (data.success) {
+        if (data.country_code) {
           setCountry(data.country_code); // "TN"
         }
-      });
+      })
+      .catch(err => console.error("IP Geolocation error:", err));
   }, []);
   return (
     <>
